@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- '0.12.3'
+before_script:
+- npm install -g component@1.1.0
+- npm install -g harp
+- cd public/assets
+- component install
+- component build
+- cd ../..
+- chmod +x ./deploy.sh
+script: "./deploy.sh"
+env:
+  global:
+  - secure: vUeuvEw/ygm7uqXUSOkmpumGmE65nm7aGvakusOWUPMnNCec8p3r0UhJRxmLCTs09mF8oOOEpih68MjtdDcn+NkE4SibEIab8xVr/UZVYF8IUo7JOffUyUHbjjNluSJz4jx4LFBWh+yVx29A3x+OXmLO1CFYIe1Ue8N+O2455RTv3GKv4uKIjApGXZ2R35nCkkkxUgP1k0X9g4ipMJCsDynYpfWXKcZADO6Y03MenzrYf3yoM6Lezh98Xn6uwhnzeVRO8u39FTKbzAQb7IjaFo+P+CXSGPe8xLPePXlZU/CxD47loYET00TZKjLthT43QjCIpy83FLVV6J5x6ZQyJ5AUzFjmCiFcjsz88A7ZPf4lj6DVpfHb1u8wGQB9M3QUaT7jkAK5Nq2RGovFS2y6nsCD/G1vW6fruCig8I/pGm2cX2Xjo9fYwJML9m0LWihkTHIeASrqPe0YEwnMzVdCRo2ocqHN7bvewE7ubZHNOVgnChl3E2Z/rodF6mwqd8qFXIGV4Vultct8Q7vhieU0bVDWkmBnIar3hDLe/Dv6rnI8Ixm9ppnpjmT6ErytiE9QWvy0JROpwiA7ZJMMbW0BIQgOxUh9PHQH66hWuFy9ZbihBuVFuuqeldf6+OuOBwqTmfbeZ+vFQjazjWmlHrbtobgkfQAqenS9TPmdFgdyCqc=
+
