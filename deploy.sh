@@ -3,7 +3,7 @@
 echo "Starting deployment"
 TEMP_DIRECTORY="/tmp/__temp_static_content"
 CURRENT_COMMIT=`git rev-parse HEAD`
-ORIGIN_URL="github.com/npasserini/wisit15-site-harpjs.git"
+ORIGIN_URL="github.com/uqbar-project/wisit15-site-harpjs.git"
 ORIGIN_URL_WITH_CREDENTIALS="https://${GITHUB_TOKEN}@${ORIGIN_URL}"
 
 echo "Compiling site into " ${TEMP_DIRECTORY}
