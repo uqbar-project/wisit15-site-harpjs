@@ -11,17 +11,19 @@ A su vez, los archivos json sirven para guardar información, que puede ser acce
 Para una explicación más completa ver la [documentación de HarpJS](http://harpjs.com/docs/development/layout)
 
 ## Local Server
- Se puede probar localmente haciedo dentro de /site
- - `component install` instala las dependencias en /site/components    
- - `component build`   buildea las dependencias en /site/build
+ Se puede probar localmente ejecutando dentro de /public/assets
+ - `component install` instala las dependencias en /public/assets/components    
+ - `component build`   buildea las dependencias en /public/assets/build
+
+ Luego en el directorio raiz
  - `harp server`       levanta un server local
 
 ## Deploy:
 
 ### Travis CI
  
- Todo lo que se suba a `master` va a ser buildeado por Travis-CI y pusheado a https://github.com/uqbar-project/uqbar-project.github.io
- El sitio estático quedará servido en http://uqbar-project.github.io/home
+ Todo lo que se suba a `master` va a ser buildeado por Travis-CI y pusheado a https://github.com/uqbar-project/wisit15-site-harpjs
+ El sitio estático quedará servido en http://uqbar-project.github.io/wisit15-site-harpjs
  
 ### Manual
  
