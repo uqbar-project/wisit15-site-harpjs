@@ -1,0 +1,16 @@
+doctype
+html
+  head
+    title Wisit 15
+
+    block styles
+      link(rel="stylesheet" href="assets/build/build.css")
+      link(rel="stylesheet" href="main.css")
+
+    block scripts
+      script(src="/assets/build/build.js")
+
+  body
+    != partial("../_shared/navbar/navbar")
+    block content
+    !=partial("../_shared/footer/footer")
