@@ -1,5 +1,12 @@
 @import 'globals'
 
+shadow(distance)
+    horizontal_shadow = distance * 0.5
+    vertical_shadow = distance * 0.866
+    -webkit-box-shadow horizontal_shadow vertical_shadow 0px 0px rgba(0, 0, 0, 0.35)
+    -moz-box-shadow horizontal_shadow vertical_shadow 0px 0px rgba(0, 0, 0, 0.35)
+    box-shadow horizontal_shadow vertical_shadow 0px 0px rgba(0, 0, 0, 0.35)
+
 body 
   padding-top 70px
   font-family 'Open Sans Condensed', sans-serif
@@ -45,8 +52,3 @@ body
     border-radius 15px
     text-transform uppercase
     shadow 5px
-
-shadow(size)
-    -webkit-box-shadow size size 0px 0px rgba(0, 0, 0, 0.35)
-    -moz-box-shadow size size 0px 0px rgba(0, 0, 0, 0.35)
-    box-shadow size size 0px 0px rgba(0, 0, 0, 0.35)
