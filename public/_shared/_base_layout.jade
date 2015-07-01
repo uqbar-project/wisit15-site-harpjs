@@ -1,6 +1,10 @@
+block basetag
+  -var base = '..'
+
 doctype
 html
   head
+    base(href='#{base}')
     title Wisit 15
 
     block styles
@@ -9,11 +13,11 @@ html
       link(rel="stylesheet" href="assets/build/build.css")
 
     block scripts
+      script(src="assets/build/build.js")
       script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
       script(src="http://getbootstrap.com/dist/js/bootstrap.min.js")
-      script(src="assets/build/build.js")
 
   body
-    != partial("_shared/navbar/navbar")
+    != partial('../_shared/navbar/navbar')
     block content
     !=partial("/_shared/footer/footer")
