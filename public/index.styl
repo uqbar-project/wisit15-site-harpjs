@@ -2,11 +2,6 @@ celeste = #5C90BF
 
 @import '_shared/navbar/navbar'
 
-shadow(size)
-    -webkit-box-shadow size size 0px 0px rgba(0, 0, 0, 0.35)
-    -moz-box-shadow size size 0px 0px rgba(0, 0, 0, 0.35)
-    box-shadow size size 0px 0px rgba(0, 0, 0, 0.35)
-
 body 
   padding-top 70px
   font-family 'Open Sans Condensed', sans-serif
@@ -19,7 +14,10 @@ body
 
 .caja
   text-align center
+  
   h1
+    font-size 22px
+    padding 3px 5px
     color white
     text-transform uppercase
     display inline-block
@@ -28,10 +26,11 @@ body
     margin-bottom  0px
     margin-top 0px
     z-index -1
+    position relative
 
 .info
+  min-height 286px
   padding-bottom 10px
-  z-index 2
   overflow hidden
   color white
   background-color celeste
@@ -44,3 +43,8 @@ body
     border-radius 15px
     text-transform uppercase
     shadow 5px
+
+shadow(size)
+    -webkit-box-shadow size size 0px 0px rgba(0, 0, 0, 0.35)
+    -moz-box-shadow size size 0px 0px rgba(0, 0, 0, 0.35)
+    box-shadow size size 0px 0px rgba(0, 0, 0, 0.35)
