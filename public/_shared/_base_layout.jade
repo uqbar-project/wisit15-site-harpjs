@@ -7,14 +7,13 @@ html
       link(rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700')
       link(rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans')
       link(rel="stylesheet" href="assets/build/build.css")
-      link(rel="stylesheet" href="main.css")
 
     block scripts
-      script(src="assets/build/build.js")
       script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
       script(src="http://getbootstrap.com/dist/js/bootstrap.min.js")
+      script(src="assets/build/build.js")
 
   body
-    != partial("_shared/navbar/_navbar")
+    != partial("_shared/navbar/navbar")
     block content
     !=partial("/_shared/footer/footer")
