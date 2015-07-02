@@ -1,3 +1,49 @@
 celeste = #5C90BF
 
 @import '_shared/navbar/navbar'
+
+body 
+  padding-top 70px
+  font-family 'Open Sans Condensed', sans-serif
+
+  .container
+    max-width 960px
+
+shadow(distance)
+    horizontal_shadow = distance * 0.5
+    vertical_shadow = distance * 0.866
+    -webkit-box-shadow horizontal_shadow vertical_shadow 0px 0px rgba(0, 0, 0, 0.35)
+    -moz-box-shadow horizontal_shadow vertical_shadow 0px 0px rgba(0, 0, 0, 0.35)
+    box-shadow horizontal_shadow vertical_shadow 0px 0px rgba(0, 0, 0, 0.35)
+
+.caja
+  text-align center
+  
+  h1
+    font-size 22px
+    padding 3px 5px
+    color white
+    text-transform uppercase
+    display inline-block
+    background-color black
+    shadow 7px
+    margin-bottom  0px
+    margin-top 0px
+    position relative
+    z-index -1
+
+.info
+  min-height 286px
+  padding-bottom 10px
+  overflow hidden
+  color white
+  background-color celeste
+  shadow 7px
+  a
+    padding-left 20px
+    padding-right 20px
+    margin 10px
+    background-color white
+    border-radius 15px
+    text-transform uppercase
+    shadow 5px
