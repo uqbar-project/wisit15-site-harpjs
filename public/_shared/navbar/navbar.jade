@@ -1,7 +1,7 @@
 nav.navbar.navbar-inverse.navbar-fixed-top
   .container
     .navbar-header
-      button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#fixed-navbar-uqbar')
+      button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#fixed-navbar-uqbar', aria-expanded='false')
         span.sr-only Toggle navigation
         span.icon-bar
         span.icon-bar
@@ -9,7 +9,7 @@ nav.navbar.navbar-inverse.navbar-fixed-top
       a.navbar-brand(href='#')
         img#logo-wisit(src='assets/img/logoWISIT-Blanco.png')
 
-    #fixed-navbar-uqbar.collapse.navbar-collapse
+    #fixed-navbar-uqbar.navbar-collapse.collapse
       ul.nav.navbar-nav.navbar-right
         each section in public._data.sections
           li: a(href="#{ section.path }") #{section.label}
