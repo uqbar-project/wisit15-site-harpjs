@@ -1,8 +1,8 @@
 {
   "sections":[
-    { "label":"Eventos y talleres",   "path":"/eventos"     },
-    { "label":"Proponé tu charla",    "path":"/propone_charla"     },
-    { "label":"Inscripción",          "path":"/inscripcion" },
-    { "label":"Sponsors",             "path":"/sponsors"    }
+    { "label":"Eventos y talleres",   "path":"eventos"     },
+    { "label":"Proponé tu charla",    "path":"propone_charla"     },
+    { "label":"Inscripción",          "path":"inscripcion" },
+    { "label":"Sponsors",             "path":"sponsors"    }
   ]    
 }
