@@ -10,14 +10,15 @@ body
     max-width 960px
 
 shadow(distance)
-    horizontal_shadow = distance * 0.5
-    vertical_shadow = distance * 0.866
-    -webkit-box-shadow horizontal_shadow vertical_shadow 0px 0px rgba(0, 0, 0, 0.35)
-    -moz-box-shadow horizontal_shadow vertical_shadow 0px 0px rgba(0, 0, 0, 0.35)
-    box-shadow horizontal_shadow vertical_shadow 0px 0px rgba(0, 0, 0, 0.35)
+  horizontal_shadow = distance * 0.5
+  vertical_shadow = distance * 0.866
+  -webkit-box-shadow horizontal_shadow vertical_shadow 0px 0px rgba(0, 0, 0, 0.35)
+  -moz-box-shadow horizontal_shadow vertical_shadow 0px 0px rgba(0, 0, 0, 0.35)
+  box-shadow horizontal_shadow vertical_shadow 0px 0px rgba(0, 0, 0, 0.35)
 
 .caja
   text-align center
+  margin-top: 18px
   
   h1
     font-size 22px
@@ -42,7 +43,10 @@ shadow(distance)
   position:relative
 
   hr
-    margin 15px 0px
+    background-color: white;
+    height 2px
+    border 0 none
+    margin 15px
 
   h2
     margin-top 10px
