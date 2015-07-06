@@ -5,45 +5,42 @@ block basetag
 
 block child
     img#logoMain.img-responsive.center-block(src='assets/img/Wisit15.png')
-    h1.text-center.text-uppercase Tercer workshop de ingeniería en sistemas y tecnologías de la información
+    h1.text-center Tercer workshop de ingeniería en sistemas y tecnologías de la información
     p.destacado.text-center.text-uppercase • evento gratuito •
     .row.row-eq-height
-        .col-md-4
-            .caja
-                h1 Talleres
-                #info-talleres.info
-                    h2 1º de Agosto
-                    h4 En UTN, Medrano 951, C.A.B.A.
-                    a(href='') Inscribite
-                    a(href='') Mas info
-                    hr
-                    h2 12 de Septiembre
-                    h4 En UNQ, Roque Saenz Peña 352 <br> Pcia. de Buenos Aires
-                    .botones
-                        a(href='') Inscribite
-                        a(href='') Más info
-        .col-md-4
-            .caja
-                h1 Evento Principal
-                #info-principal.info 
-                    .vcenter-container
-                        .vcenter-contents
-                            h2 19 de Septiembre
-                            h3 Universidad <br> Nacional de Quilmes
-                            h4 En Roque Saenz Peña 352 <br> Pcia. de Buenos Aires
-                    .botones
-                        a(href='') Inscribite
-                        a(href='wisit') Más info
-        .col-md-4
-            .caja
-                h1 Participá
-                #info-participa.info
-                    h2 Como PÚBLICO o ASISTENTE
-                    a(href='') Inscribite
-                    hr
-                    h2 Proponé tu CHARLA
-                    .botones
-                        a(href='') Más info
+        .col-md-4.caja
+            h1 Talleres
+            #info-talleres.info
+                h2 1º de Agosto
+                h4 En UTN, Medrano 951, C.A.B.A.
+                a(href='inscripcion') Inscribite
+                a(href='eventos') Mas info
+                hr
+                h2 12 de Septiembre
+                h4 En UNQ, Roque Saenz Peña 352 <br> Pcia. de Buenos Aires
+                .botones
+                    a(href='inscripcion') Inscribite
+                    a(href='eventos') Más info
+        .col-md-4.caja
+            h1 Evento Principal
+            #info-principal.info 
+                .vcenter-container
+                    .vcenter-contents
+                        h2 19 de Septiembre
+                        h3 Universidad <br> Nacional de Quilmes
+                        h4 En Roque Saenz Peña 352 <br> Pcia. de Buenos Aires
+                .botones
+                    a(href='inscripcion') Inscribite
+                    a(href='wisit') Más info
+        .col-md-4.caja
+            h1 Participá
+            #info-participa.info
+                h2 Como PÚBLICO o ASISTENTE
+                a(href='inscripcion') Inscribite
+                hr
+                h2 Proponé tu CHARLA
+                .botones
+                    a(href='propone_charla') Más info
 
     .row.row-eq-height.logos
         .col-md-6.col-md-offset-1.col-xs-8
