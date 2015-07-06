@@ -1,4 +1,17 @@
-celeste = #5C90BF
+@import 'cajas'
+
+padding-vertical(distance)
+  padding-top distance
+  padding-bottom distance
+
+margin-vertical(distance)
+  margin-top distance
+  margin-bottom distance
+
+margin-horizontal(distance)
+  margin-left distance
+  margin-right distance
+
 
 @import '_shared/navbar/navbar'
 
@@ -16,73 +29,11 @@ shadow(distance)
   -moz-box-shadow horizontal_shadow vertical_shadow 0px 0px rgba(0, 0, 0, 0.35)
   box-shadow horizontal_shadow vertical_shadow 0px 0px rgba(0, 0, 0, 0.35)
 
-.caja
-  text-align center
-  margin-top: 18px
-  
-  h1
-    font-size 22px
-    padding 3px 5px
-    color white
-    text-transform uppercase
-    display inline-block
-    background-color black
-    shadow 7px
-    margin-bottom  0px
-    margin-top 0px
-    position relative
-    z-index -1
+.center
+  display: block;
+  box-sizing: content-box;
+  margin-left: auto;
+  margin-right: auto;
 
-.info
-  min-height 286px
-  padding-bottom 10px
-  overflow hidden
-  color white
-  background-color celeste
-  shadow 7px
-  position:relative
-
-  hr
-    background-color: white;
-    height 2px
-    border 0 none
-    margin 15px
-
-  h2
-    margin-top 10px
-    font-size 36px
-
-  h3 
-    text-transform uppercase
-    font-size 26px
-
-  h4
-    font-size 20px
-
-  a
-    padding 0px 20px
-    margin 10px
-    background-color white
-    border-radius 15px
-    text-transform uppercase
-    shadow 5px
-    font-size: 20.4px
-    color: #3c5e7d
-
-  .botones
-    position: absolute
-    bottom: 20px
-    width: 100%
-
-.vcenter-container {
-  position relative
-  height 238px
-}
-
-.vcenter-contents {
-  position absolute
-  top 50%
-  left 50%
-  transform: translate(-50%, -50%)
-  width: 100%
-}
+.col-md-offset-15
+  margin-left 12.5%
