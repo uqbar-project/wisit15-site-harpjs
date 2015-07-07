@@ -1,13 +1,16 @@
 #!/bin/bash
 
+set -e
+
 echo "Starting deployment"
 TEMP_DIRECTORY="/tmp/__temp_static_content"
 
 echo "Compiling site into " ${TEMP_DIRECTORY}
-mkdir ${TEMP_DIRECTORY}
+mkdir -p ${TEMP_DIRECTORY}
 harp compile -o ${TEMP_DIRECTORY}
 
-lftp -u ${USER_FTP},${USER_PASS} -v -e 'mirror / ${TEMP_DIRECTORY} -R -e' uqbar-wiki.org
+echo "'mirror -R -e -v / ${TEMP_DIRECTORY}'"
+lftp -u ${USER_FTP},${USER_PASS} -e "set ftp:ssl-allow no; mirror -R -e -v ${TEMP_DIRECTORY} /; quit"  uqbar-wiki.org
 
 echo "Cleaning up temp files"
 rm -Rf ${TEMP_DIRECTORY}
