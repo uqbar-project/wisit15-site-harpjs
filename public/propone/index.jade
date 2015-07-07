@@ -1,26 +1,56 @@
-h1 Proponé tu charla
+.titulo Proponé tu charla
 .row.row-eq-height
     .col-md-4.caja
         h1 Investigación
-        .info
+        #info-talleres.info.caja_propone
             p Trabajos científicos que tengan como objetivo mejorar la forma en que desarrollamos software o formamos nuestros profesionales, favoreciendo la interacción entre el ámbito académico y el industrial.
-            a(href='#investigacion') Mas info
+            .botones
+                a(href='propone/#investigacion') Más info
 
     .col-md-4.caja
         h1 Experiencias
-        .info
+        #info-talleres.info.caja_propone
             p Exposiciones sobre experiencias concretas en la aplicación de tecnologías y metodologías innovadoras en el ámbito industrial y docente.
-            a(href='') Mas info
+            .botones
+                a(href='propone/#experiencias') Más info
 
     .col-md-4.caja
         h1 Show us
-        .info
-            p Charlas breves en las que los asistentes peuden mostrar sus proyectos innovadores al resto de la comunidad.
-            a(href='') Mas info
+        #info-talleres.info.caja_propone
+            p Charlas breves en las que los asistentes pueden mostrar sus proyectos innovadores al resto de la comunidad.
+            .botones
+                a(href='propone/#showus') Más info
+hr
 
 a(name="investigacion")
-h1 Research track
-p Se aceptarán papers acerca de (aunque no limitados a) innovación en:
-ul Lenguajes de programación
-ul Herramientas de desarrollo
-ul Arquitectura de software
+.titulo Research track
+.row.row-eq-height
+    .col-md-6
+        p Se aceptarán papers acerca de (aunque no limitados a) innovación en:
+        ul
+            each tematica in public._data.tematicas
+                li= tematica
+        hr
+        h1 Comité
+        img(src='../assets/img/leo.jpg')
+    .col-md-6
+        p El criterio de selección tendrá en cuenta principalmente las siguientes características de los trabajos presentados:
+        ul
+            each criterio in public._data.criterios
+                li= criterio
+        p Fechas importantes
+        each fecha_paper in public._data.fechas_papers
+            h1= fecha_paper.fecha
+            h2= fecha_paper.evento
+
+hr
+
+a(name="experiencias")
+.titulo Experiencias
+
+hr
+
+a(name="showus")
+.titulo Show us your projects / Posters
+
+
