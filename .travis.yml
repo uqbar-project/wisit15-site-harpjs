@@ -1,15 +1,22 @@
 language: node_js
+install:
+- sudo apt-get install lftp
 node_js:
-  - 0.12.3
+- 0.12.3
 before_script:
-  - npm install -g component@1.1.0
-  - npm install -g harp
-  - cd public/assets
-  - component install
-  - component build
-  - cd ../..
-  - chmod +x ./deploy.sh
-script: ./deploy.sh
+- npm install -g component@1.1.0
+- npm install -g harp
+- cd public/assets
+- component install
+- component build
+- cd ../..
+- chmod +x ./deployDev.sh
+- chmod +x ./deployMaster.sh
+script: 
+- if [ $TRAVIS_PULL_REQUEST == "false" -a $TRAVIS_BRANCH == "dev" ] ; then ./deployDev.sh; fi
+- if [ $TRAVIS_PULL_REQUEST == "false" -a $TRAVIS_BRANCH == "master" ] ; then ./deployMaster.sh; fi
 env:
   global:
-    - secure: jxCGUUOzhMwpaKbKBxNRaHGgdpGkTSPU8ejc68X6KDMF9VEILmMKOuCGv3FQ8diEmnJPYu5Yn27AG6DroBOFJCpDNvLeyHzPKQmrucLlQoGig56W2zwOFPfCIwmV4BMNg7TjTle4eraxHY58L0ShEAKKhNaFPaEhZlOxA3MX5r+mucTKt/bscJWh5mZGICFWwhdNLpCOkgYA1+EkcM0HGW7I0UMJNbOMwBOF6PQPbZu5d+Ff/fP3Sv4iP+XJntgpLfRq7aZt84lEPywmEuJlWGG0uEvqaMF83DdYDYx3RnUrugGTfThFo4ARu1Z/wo6BPAOrC4JbmHDJfdwxP8xQPUIQvLmtFjRyAbH2JhaATsN2rphNmIf6P81qer1YOtCVPSnqhDYtb82UTKoCnaODC7U49y99i4VLhJgrTL2vD0oc/QdfbLr/8IUN/zW9Z+UdJBdKD7rtOukeHY3nskQZp3tRGEpd6CwmpUKexQZsKJyu9XYCOwxkATqe8rf/FShFWWoYbXzRKOQRNtcmNPCsbWBmHCFW8cvVlNc35Z4KQpQB5zQZlxGY7uXcTQgWs8nWcqtYGEyz8yUCQr3CX+VUMxOuDmWI7/gT64w7uhqGyGEIyvA+3dNUMX+l0KMve4sHdm7W/CRWuac6jor75gfp4A5gGgtd5Y2o5uFZ8mKd1L0=
+  - secure: jxCGUUOzhMwpaKbKBxNRaHGgdpGkTSPU8ejc68X6KDMF9VEILmMKOuCGv3FQ8diEmnJPYu5Yn27AG6DroBOFJCpDNvLeyHzPKQmrucLlQoGig56W2zwOFPfCIwmV4BMNg7TjTle4eraxHY58L0ShEAKKhNaFPaEhZlOxA3MX5r+mucTKt/bscJWh5mZGICFWwhdNLpCOkgYA1+EkcM0HGW7I0UMJNbOMwBOF6PQPbZu5d+Ff/fP3Sv4iP+XJntgpLfRq7aZt84lEPywmEuJlWGG0uEvqaMF83DdYDYx3RnUrugGTfThFo4ARu1Z/wo6BPAOrC4JbmHDJfdwxP8xQPUIQvLmtFjRyAbH2JhaATsN2rphNmIf6P81qer1YOtCVPSnqhDYtb82UTKoCnaODC7U49y99i4VLhJgrTL2vD0oc/QdfbLr/8IUN/zW9Z+UdJBdKD7rtOukeHY3nskQZp3tRGEpd6CwmpUKexQZsKJyu9XYCOwxkATqe8rf/FShFWWoYbXzRKOQRNtcmNPCsbWBmHCFW8cvVlNc35Z4KQpQB5zQZlxGY7uXcTQgWs8nWcqtYGEyz8yUCQr3CX+VUMxOuDmWI7/gT64w7uhqGyGEIyvA+3dNUMX+l0KMve4sHdm7W/CRWuac6jor75gfp4A5gGgtd5Y2o5uFZ8mKd1L0=
+  - secure: RNkJct/amnS1vlCJ1GUhxFpRwzqIB8VEEG4+ALOfxVl49ne6/Cn6RpNVxvFQgzIFh4Y20EObaRj7kjIrRByQlGeZTuGnmPe53izhoj5iAadwUyHOlrFBFLaenZjwOiML+PlOmcr9toCHYU9XS2m9MVsLjZFYRrySbE9UWamurQDGzxkkDazvY1ZOo6rykAHcKXd5hkdpL7NEOjFf26nOTcwbdWnSVxElVpi9yYGuB55zRwvlvZScLcBamcA98LrKGMct/XZ30h4fHTwi+b/4Woft170F8qYyCJb/K7oQrkEewJYhNnmM048JdseKmIUOp/+2VNEGSYW1jAm4aflmpvuCIqI+xwXFkTB9Rf6YS0283b+Pr7SpIfPtcte9JQE+rbiWvK9p1w1S7MLQz83GzxyS72wz6d2B8PElvUrcrwXVhBy+JrxLeFU6SRK+bKDowrOzld0FtloRLMdgwlpwN4i8/hTdxYL4mejpSp1UaS6qaDb7XMfCmhpsyoBW6zwWy3VyFRvceOkwXe8NN0q4BI1a6too473e5DkXweGsMnHiRMFYhVabPC0HNhBNIkH5HqU0BIuki01wYHY3kkpLb6iXLvSpWG2zblrk+4tSAtKGEwxJUVZm+qHj6plUpGIj5gUgbUwI24EGfKbQBF06cmHxCoZz1AgnKwGsRbUAKCM=
+  - secure: ejAj3ru6kOzYgbj1MU3vI3BYNf50ErD6UV0qLEVMVFP5Qm3R/7JZKOT8GW4mp79YF3fvc943fAtLTQGlfXdDyi4wuccopJRRz2fxBbbEXLZpHAufcFVYU3atEN3aobYfFRj+zheUrJrwsjMXok8QmoarCLTYXgaq/LAQ2xjwEocoAsvLSUmspVnMCUyTanUXbm4eH39qt/AcpuA4JSniNrKJn6MMJeLt1hdZbDYqKgTMUHjJkFqUIViDDMKhWr2mf1J+4XaUPeWl/8O/Ymdy2jHSAyM/5sY4aDEbLNPiDrVIuR9i3UKxGeZiYjSqH5wF6bYtzBIlWfeZT9dR2JbFvY28xuwcrFS/DX1hlBzvgqqvZRIHqEe0B7dR5qjezRM0CMNqg0V3iTz1Z/e8ydaqWvI7P80DnVUZvbt8KWJc6D5o0fqJDdV9sPBLb5z+YVqt7e9EZsXaSOmKs+A1HnjycmVXsMpF/xgV0dH3NACLbE2OVH9dLg1sgrKxnnLINmJwTpVjcZvHMIIjuibwM4nEEGwzEx113XhRMX4RH7BP3KolIedpnbSGZBHxGrau7GZFw0bjpQxoD8X0Q2IWIbrctIuq2wV6SzKS4zsTH+1PkvkpP11Ru2+AKxe8FZ/QnzX3axpHOiXUAHGc/hWwGcX6cxSd/1TzSpyxG/npV3Sq/OM=
