@@ -4,35 +4,21 @@ append styles
   link(rel="stylesheet" href="propone/research.css")
 
 block content
-  h1 Research Track
+  .titulo Research Track
 
   #top.row
     .col-md-6
       .miniDestacado Se aceptarán papers, experiencias y hands on sobre aplicaciones innovadoras en las siguientes áreas:
 
       ul
-        li Lenguajes de programación
-        li Herramientas de desarrollo
-        li Arquitectura de software
-        li Metaprogramación
-        li Implementación de lenguajes de programación
-        li Compiladores
-        li Optimización de lenguajes
-        li Lenguajes específicos de dominio (DSLs)
-        li Frameworks, bibliotecas y algoritmos
-        li Máquinas virtuales
-        li Interfaces de usuario
-        li Patrones de diseño
-        li Enseñanza de y con programación
-        li Call for papers
+        each tematica in public._data.tematicas
+          li=tematica
 
     #criterios.col-md-6
       .miniDestacado Para la selección de los trabajos se dará especial importancia a los siguientes criterios:
       ul
-        li Innovación. El trabajo debe explicitar en forma clara y precisa la contribución realizada.
-        li Aplicación en industria o en docencia.
-        li Consideración de problemáticas sociales (no excluyente)
-        li Utilización, producción y promoción de software de libre y/o de código abierto (no excluyente)
+        each criterio in public._data.criterios
+          li=criterio
 
       .submissions
         a.boton(href='https://easychair.org/conferences/?conf=wisit15') ¡Enviá tu paper!
@@ -74,14 +60,7 @@ block content
           hr
 
         .body
-          ul: li 
-              .fecha 10 de agosto 
-              .desc-fecha Fecha límite para la presentación de trabajos
-          hr
-          ul: li 
-              .fecha 31 de agosto 
-              .desc-fecha Notificación de trabajos aceptados 
-          hr
-          ul: li
-              .fecha 19 de septiembre 
-              .desc-fecha Wisit 15
+          each fecha_paper in public._data.fechas_papers
+            ul: li 
+              .fecha #{fecha_paper.fecha}
+              .desc-fecha #{fecha_paper.evento}
