@@ -3,6 +3,38 @@ extends ../_shared/_base_layout
 append styles
   link(rel="stylesheet" href="eventos/index.css")
 
+append scripts
+  script(src="https://maps.googleapis.com/maps/api/js")
+  script(type='text/javascript').
+    function initialize() {
+      var uqnLatlng = new google.maps.LatLng(-34.706508,-58.2782888);
+      var mapCanvas = document.getElementById('map-canvas');
+      var mapOptions = {
+        zoom: 14,
+        center: uqnLatlng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      };
+
+      var map = new google.maps.Map(mapCanvas, mapOptions);
+
+      // var marker1 = new MarkerWithLabel({
+      //   position: unqLatlng,
+      //   map: map,
+      //   labelContent: "$425K",
+      //   labelAnchor: new google.maps.Point(22, 0),
+      //   labelClass: "labels", // the CSS class for the label
+      //   labelStyle: {opacity: 0.75}
+      // });
+
+      var marker = new google.maps.Marker({
+          position: uqnLatlng,
+          map: map,
+          title: 'Universidad Nacional de Quilmes'
+      });
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+
+
 block content
   .titulo Evento Principal
 
@@ -19,3 +51,5 @@ block content
         p Charlas breves en las que los asistentes pueden mostrar sus proyectos innovadores al resto de la comunidad.
 
     .col-md-6: img#foto(src='assets/img/foto-frba-aula-magna.png')
+
+  .row: .col-md-12: #map-canvas.center
