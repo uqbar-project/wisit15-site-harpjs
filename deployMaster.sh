@@ -7,7 +7,7 @@ echo "Compiling site into " ${TEMP_DIRECTORY}
 mkdir ${TEMP_DIRECTORY}
 harp compile -o ${TEMP_DIRECTORY}
 
-lftp -u ${USER_FTP},${USER_PASS} -R -e 'mirror / ${TEMP_DIRECTORY}' uqbar-wiki.org
+lftp -u ${USER_FTP},${USER_PASS} -v -e 'mirror / ${TEMP_DIRECTORY} -R -e' uqbar-wiki.org
 
 echo "Cleaning up temp files"
 rm -Rf ${TEMP_DIRECTORY}
