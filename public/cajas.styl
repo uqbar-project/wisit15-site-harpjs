@@ -1,5 +1,17 @@
 celeste = #5C90BF
-grisOscuro = #222221;
+azul = #3c5e7d
+grisOscuro = #222221
+grisMedio = #5b5b5f
+
+.boton
+  font 1.4em condensed
+  padding 0em 1em
+  margin .5em
+  background-color white
+  border-radius .75em
+  text-transform uppercase
+  shadow .25em
+  color: azul
 
 .caja
   text-align center
@@ -29,9 +41,6 @@ grisOscuro = #222221;
 
   hr
     background-color: white;
-    height 2px
-    border 0 none
-    margin 15px
 
   h2
     margin-top 10px
@@ -45,14 +54,7 @@ grisOscuro = #222221;
     font-size 20px
 
   a
-    padding 0px 20px
-    margin 10px
-    background-color white
-    border-radius 15px
-    text-transform uppercase
-    shadow 5px
-    font-size: 20.4px
-    color: #3c5e7d
+    @extend .boton
 
   .botones
     position: absolute

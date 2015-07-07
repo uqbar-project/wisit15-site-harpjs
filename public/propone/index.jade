@@ -1,26 +1,32 @@
-h1 Proponé tu charla
-.row.row-eq-height
-    .col-md-4.caja
-        h1 Investigación
-        .info
-            p Trabajos científicos que tengan como objetivo mejorar la forma en que desarrollamos software o formamos nuestros profesionales, favoreciendo la interacción entre el ámbito académico y el industrial.
-            a(href='#investigacion') Mas info
+extends ../_shared/_base_layout
 
-    .col-md-4.caja
-        h1 Experiencias
-        .info
-            p Exposiciones sobre experiencias concretas en la aplicación de tecnologías y metodologías innovadoras en el ámbito industrial y docente.
-            a(href='') Mas info
+append styles
+  link(rel="stylesheet" href="propone/index.css")
 
-    .col-md-4.caja
-        h1 Show us
-        .info
-            p Charlas breves en las que los asistentes peuden mostrar sus proyectos innovadores al resto de la comunidad.
-            a(href='') Mas info
+block content
+    h1 Proponé tu charla
+    .row.row-eq-height
+        .col-md-4.caja
+            h1 Investigación
+            .info
+                p Trabajos científicos que tengan como objetivo mejorar la forma en que desarrollamos software o formamos nuestros profesionales, favoreciendo la interacción entre el ámbito académico y el industrial.
+                a(href='#investigacion') Mas info
 
-a(name="investigacion")
-h1 Research track
-p Se aceptarán papers acerca de (aunque no limitados a) innovación en:
-ul Lenguajes de programación
-ul Herramientas de desarrollo
-ul Arquitectura de software
+        .col-md-4.caja
+            h1 Experiencias
+            .info
+                p Exposiciones sobre experiencias concretas en la aplicación de tecnologías y metodologías innovadoras en el ámbito industrial y docente.
+                a(href='') Mas info
+
+        .col-md-4.caja
+            h1 Show us
+            .info
+                p Charlas breves en las que los asistentes peuden mostrar sus proyectos innovadores al resto de la comunidad.
+                a(href='') Mas info
+
+    a(name="investigacion")
+    h1 Research track
+    p Se aceptarán papers acerca de (aunque no limitados a) innovación en:
+    ul Lenguajes de programación
+    ul Herramientas de desarrollo
+    ul Arquitectura de software

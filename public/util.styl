@@ -1,0 +1,38 @@
+shadow(distance)
+  horizontal_shadow = distance * 0.5
+  vertical_shadow = distance * 0.866
+  -webkit-box-shadow horizontal_shadow vertical_shadow 0px 0px rgba(0, 0, 0, 0.35)
+  -moz-box-shadow horizontal_shadow vertical_shadow 0px 0px rgba(0, 0, 0, 0.35)
+  box-shadow horizontal_shadow vertical_shadow 0px 0px rgba(0, 0, 0, 0.35)
+
+padding-vertical(top, bottom=top)
+  padding-top top
+  padding-bottom bottom
+
+padding-horizontal(distance)
+  padding-left distance
+  padding-right distance
+
+margin-vertical(top, bottom=top)
+  margin-top top
+  margin-bottom bottom
+
+margin-horizontal(distance)
+  margin-left distance
+  margin-right distance
+
+font(size)
+  font-size size
+  if(arguments[1]==condensed)
+    font-family 'Open Sans Condensed', sans-serif
+  else
+    font-family 'Open Sans', sans-serif
+
+.center
+  display: block;
+  box-sizing: content-box;
+  margin-left: auto;
+  margin-right: auto;
+
+.col-md-offset-15
+  margin-left 12.5%

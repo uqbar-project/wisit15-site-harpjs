@@ -6,9 +6,9 @@ append styles
 block content
   h1 Research Track
 
-  .row
+  #top.row
     .col-md-6
-      .miniDestacado Se aceptarán papers, experiencias y hands on que resulten de aplicaciones innovadoras en las siguientes áreas:
+      .miniDestacado Se aceptarán papers, experiencias y hands on sobre aplicaciones innovadoras en las siguientes áreas:
 
       ul
         li Lenguajes de programación
@@ -26,7 +26,7 @@ block content
         li Enseñanza de y con programación
         li Call for papers
 
-    .col-md-6
+    #criterios.col-md-6
       .miniDestacado Para la selección de los trabajos se dará especial importancia a los siguientes criterios:
       ul
         li Innovación. El trabajo debe explicitar en forma clara y precisa la contribución realizada.
@@ -34,22 +34,54 @@ block content
         li Consideración de problemáticas sociales (no excluyente)
         li Utilización, producción y promoción de software de libre y/o de código abierto (no excluyente)
 
-  .row 
-    span Submissions:
-    span Link para proponer artículos científicos: https://easychair.org/conferences/?conf=wisit15
+      .submissions
+        span.boton ¡Enviá tu paper!
 
   .row
-    .col-md-6
-      h2 Comité:
-      Chair   Leonardo Gassman    lgassman at gmail dot com
-      br
-      Co-Chairs   Guillermo Polito    guillermopolito at gmail dot com
-      Carlos Lombardi carlombrdi at gmail dot com 
+    .col-md-6.comite
+      hr
+      h2 Comité de programa
+      .row
+        .col-md-2.col-xs-4
+          .foto: img(src='assets/img/carlosLombardi.jpg')
+        .col-md-10.col-xs-8
+          .rol Chair
+          .nombre Leonardo Gassman    
+          img.mail(src='assets/img/mail.png')
+      .row
+        .col-md-6
+          .row
+            .col-xs-4
+              .foto: img(src='assets/img/carlosLombardi.jpg')
+            .col-xs-8
+              .rol Co-Chair
+              .nombre Guillermo Polito    
+              img.mail(src='assets/img/mail.png')
+
+        .col-md-6
+          .row
+            .col-xs-4
+              .foto: img(src='assets/img/carlosLombardi.jpg')
+            .col-xs-8
+              .rol Co-Chair
+              .nombre Carlos Lombardi    
+              img.mail(src='assets/img/mail.png')
 
     .col-md-6
       .recuadro
-        .destacado Fechas Importantes:
-        ul
-          li 10 de agosto Fecha límite para la presentación de trabajos
-          li 31 de agosto Notificación de trabajos aceptados 
-          li 19 de septiembre Wisit 15
+        .head
+          p.destacado Fechas Importantes
+          hr
+
+        .body
+          ul: li 
+              .fecha 10 de agosto 
+              .desc-fecha Fecha límite para la presentación de trabajos
+          hr
+          ul: li 
+              .fecha 31 de agosto 
+              .desc-fecha Notificación de trabajos aceptados 
+          hr
+          ul: li
+              .fecha 19 de septiembre 
+              .desc-fecha Wisit 15

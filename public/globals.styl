@@ -1,17 +1,4 @@
-@import 'sombras'
-
-padding-vertical(distance)
-  padding-top distance
-  padding-bottom distance
-
-margin-vertical(distance)
-  margin-top distance
-  margin-bottom distance
-
-margin-horizontal(distance)
-  margin-left distance
-  margin-right distance
-
+@import 'util'
 @import 'cajas'
 @import '_shared/navbar/navbar'
 
@@ -22,11 +9,17 @@ body
   .container
     max-width 960px
 
-.center
-  display: block;
-  box-sizing: content-box;
-  margin-left: auto;
-  margin-right: auto;
+hr
+  height 2px
+  border 0 none
+  margin 15px
 
-.col-md-offset-15
-  margin-left 12.5%
+.destacado
+  color celeste
+  text-transform uppercase
+  font-size 33px
+  font-family 'Open Sans Condensed', sans-serif
+
+.subdestacado
+  @extends .destacado
+  color grisOscuro
