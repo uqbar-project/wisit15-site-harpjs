@@ -10,11 +10,27 @@ img#logoMain
   margin-bottom: 2px
   text-transform uppercase
 
+@media (min-width: 992px) 
+  .caja span 
+    display block
+
+@media (max-width: 992px) 
+  .caja h4 span
+    font-size 14px
+
+  .botones
+    margin-vertical 20px
+
 #info-talleres h2
   font-size 30px
     
-#info-principal h2
-  font-size 36x
+#info-principal
+  @media (min-width: 992px) 
+    .main-contents 
+      padding-vertical 10%
+  
+  h2
+    font-size 36x
 
 #info-participa 
   h2

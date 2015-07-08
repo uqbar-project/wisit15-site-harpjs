@@ -1,9 +1,9 @@
 {
   "sections":[
-    { "label":"Eventos y talleres",   "path":"eventos"     },
-    { "label":"Proponé tu charla",    "path":"propone"     },
-    { "label":"Inscripción",          "path":"inscripcion" },
-    { "label":"Sponsors",             "path":"sponsors"    }
+    { "label":"Eventos",           "path":"eventos"     },
+    { "label":"Proponé tu charla", "path":"propone"     },
+    { "label":"Inscripción",       "path":"inscripcion" },
+    { "label":"Sponsors",          "path":"sponsors"    }
   ],
   "tematicas":[
   	"Lenguajes de programación",
