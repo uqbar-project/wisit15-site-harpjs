@@ -7,21 +7,40 @@ append scripts
   script(src="https://maps.googleapis.com/maps/api/js")
   script(type='text/javascript').
     function initialize() {
-      var uqnLatlng = new google.maps.LatLng(-34.706508,-58.2782888);
-      var mapCanvas = document.getElementById('map-canvas');
+      createMap({
+        lat: -34.706508,
+        lng: -58.2782888,
+        htmlElement: 'map-unq',
+        title: 'Universidad Nacional de Quilmes'
+      });
+
+      createMap({
+        lat: -34.5866187,
+        lng: -58.4044972,
+        htmlElement: 'map-fiuba',
+        title: 'Facultad de Ingeniería - UBA'
+      });
+
+    }
+
+    function createMap(props) {
+      var latlng = new google.maps.LatLng(props.lat, props.lng);
+      var mapCanvas = document.getElementById(props.htmlElement);
       var mapOptions = {
         zoom: 14,
-        center: uqnLatlng,
+        center: latlng,
         mapTypeId: google.maps.MapTypeId.ROADMAP
       };
 
       var map = new google.maps.Map(mapCanvas, mapOptions);
       var marker = new google.maps.Marker({
-          position: uqnLatlng,
+          position: latlng,
           map: map,
-          title: 'Universidad Nacional de Quilmes'
+          title: props.title
       });
+      console.log(mapCanvas);
     }
+
     google.maps.event.addDomListener(window, 'load', initialize);
 
 
@@ -38,20 +57,42 @@ block content
         li
           .donde Universidad Nacional de Quilmes 
           .cuando 12 de septiembre - 
-            a(href='#unq') Más info
+            a(href='handson/index#unq') Más info
 
         li
           .donde Facultad de Ingeniería UBA 
           .cuando Fecha a definir - 
-            a(href='#uba') Más info
+            a(href='handson/index#uba') Más info
 
     .col-md-6: img#foto(src='assets/img/foto-frba-aula-magna.png')
 
-  .row 
-    .col-md-4.datos
+
+  a(name='unq')
+  .row.taller 
+    .col-xs-12
       h2.subtitulo Universidad Nacional de Quilmes
-      p.cuando 12 de Septiembre
-      p.donde Universidad Nacional <br> de Quilmes
+
+    .col-md-4.datos
+      .recuadro.center 
+        span.celeste Próximamente 
+        span anunciaremos los talleres
+
+      p.cuando Sábado 12 de Septiembre
       p.direccion Roque Saenz Peña 352 <br> Bernal, Pcia. de Buenos Aires
 
-    .col-md-8: #map-canvas.center
+    .col-md-8: #map-unq.map.center
+
+  .row.taller 
+    .col-xs-12
+      a(name='uba')
+      h2.subtitulo Facultad de Ingeniería - UBA
+
+    .col-md-4.datos
+      .recuadro.center 
+        span.celeste Próximamente 
+        span anunciaremos los talleres
+
+      p.cuando Fecha a definir
+      p.direccion Avenida Las Heras 2214, C.A.B.A 
+
+    .col-md-8: #map-fiuba.map.center
