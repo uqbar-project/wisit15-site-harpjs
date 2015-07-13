@@ -1,7 +1,7 @@
 {
   "sections":[
     { "label":"Workshop",          "path":"workshop"     },
-    { "label":"Talleres",          "path":"talleres"     },
+    { "label":"Hands on",          "path":"handson"     },
     { "label":"Proponé tu charla", "path":"propone"     },
     { "label":"Inscripción",       "path":"inscripcion" },
     { "label":"Sponsors",          "path":"sponsors"    }

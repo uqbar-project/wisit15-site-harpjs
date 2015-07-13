@@ -1,7 +1,7 @@
 extends ../_shared/_base_layout
 
 append styles
-  link(rel="stylesheet" href="workshop/index.css")
+  link(rel="stylesheet" href="handson/index.css")
 
 append scripts
   script(src="https://maps.googleapis.com/maps/api/js")
@@ -26,27 +26,31 @@ append scripts
 
 
 block content
-  .titulo Workshop
+  .titulo Hands on
 
-  .row
-    .col-md-6
-      ul.tracks
-        h3: li Track Investigación
-        p Trabajos científicos que tengan como objetivo mejorar la forma en que desarrollamos software o formamos nuevos profesionales, favoreciendo la interacción entre el ámbito académico y el industrial.
+  .row 
+    .col-md-6.bajada
+      p En estos talleres, convocamos a expertos en tecnologías innovadoras para que nos guíen en los primeros pasos para aprovechar las nuevas tecnologías en el día a día de nuestro trabajo. 
+      p Acercate con tu notebook para venir a programar y tener una experiencia de primera mano construyendo software con estas herramientas.
 
-        h3: li Track Experiencias
-        p Exposiciones sobre experiencias concretas en la aplicación de tecnologías y metodologías innovadoras en el ámbito industrial y docente.
+      ul.talleres
 
-        h3: li Mostrá tu proyecto
-        p Charlas breves en las que los asistentes pueden mostrar sus proyectos innovadores al resto de la comunidad.
+        li
+          .donde Universidad Nacional de Quilmes 
+          .cuando 12 de septiembre - 
+            a(href='#unq') Más info
+
+        li
+          .donde Facultad de Ingeniería UBA 
+          .cuando Fecha a definir - 
+            a(href='#uba') Más info
 
     .col-md-6: img#foto(src='assets/img/foto-frba-aula-magna.png')
 
-
   .row 
     .col-md-4.datos
-      h2.subtitulo Ubicación
-      p.cuando 19 de Septiembre
+      h2.subtitulo Universidad Nacional de Quilmes
+      p.cuando 12 de Septiembre
       p.donde Universidad Nacional <br> de Quilmes
       p.direccion Roque Saenz Peña 352 <br> Bernal, Pcia. de Buenos Aires
 
