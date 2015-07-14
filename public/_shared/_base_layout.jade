@@ -12,15 +12,11 @@ html
     block styles
       link(rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700')
       link(rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:600')
+      link(rel='stylesheet' type='text/css' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
       link(rel="stylesheet" href="assets/build/build.css")
-
-    block scripts
-      script(src="assets/build/build.js")
-      script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
-      script(src="http://getbootstrap.com/dist/js/bootstrap.min.js")
 
   body
     != partial('../_shared/navbar/navbar')
     .container
       block content
-    !=partial("/_shared/footer/footer")
+    !=partial("../_shared/footer/footer")
