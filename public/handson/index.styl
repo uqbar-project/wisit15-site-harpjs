@@ -22,10 +22,16 @@ img#foto
   size: 100%
 
 .row.taller
-  margin-vertical 0em
+  margin-vertical 0em 2em
 
   .col-xs-12
     margin-vertical 2em 0em
+
+    @media (max-width: 992px)
+      margin-vertical 1em
+
+    h2 
+      margin-vertical .5em
 
 
 .datos
@@ -35,6 +41,13 @@ img#foto
     box-sizing border-box
     height 6.5em
     width 75%
+
+    @media (max-width: 992px)
+      float right
+      width 30%
+      padding-vertical .5em
+      height initial
+      margin-vertical 0em
 
   p
     text-align center
@@ -51,8 +64,15 @@ img#foto
     font-size 1.4em
 
   @media (max-width: 992px)
-    width 80%
-    font 1.8em condensed
+    width 100%
+    font-size 1.5em
+
+    .cuando
+      font-size 1.5em
+
+    .proximamente
+      width 60%
+      margin-vertical .5em
 
 
 .map
