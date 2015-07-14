@@ -8,7 +8,7 @@ ORIGIN_URL_WITH_CREDENTIALS="https://${GITHUB_TOKEN}@${ORIGIN_URL}"
 
 echo "Compiling site into " ${TEMP_DIRECTORY}
 mkdir ${TEMP_DIRECTORY}
-harp compile -o ${TEMP_DIRECTORY}
+harp compile -o ${TEMP_DIRECTORY} || exit 1
 cp .gitignore ${TEMP_DIRECTORY}
 echo .gitignore >> ${TEMP_DIRECTORY}/.gitignore
 
@@ -25,8 +25,8 @@ git commit --allow-empty -m "Generated static site for $CURRENT_COMMIT" || exit 
 git remote add origin "$ORIGIN_URL_WITH_CREDENTIALS"
 git push -u --force origin gh-pages
 
-echo "Cleaning up temp files"
-rm -Rf ${TEMP_DIRECTORY}
+# echo "Cleaning up temp files"
+# rm -Rf ${TEMP_DIRECTORY}
 
 echo "Deployed successfully."
 exit 0
