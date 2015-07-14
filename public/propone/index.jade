@@ -1,28 +1,40 @@
 extends ../_shared/_base_layout
 
+mails = public._data.propone.mails
+
 append styles
   link(rel="stylesheet" href="propone/index.css")
 
 block content
-    .titulo Proponé tu charla
-    .row.row-eq-height
-        .col-md-4.caja
-            h1 Investigación
-            #info-talleres.info.caja_propone
-                p Trabajos científicos que tengan como objetivo mejorar la forma en que desarrollamos software o formamos nuestros profesionales, favoreciendo la interacción entre el ámbito académico y el industrial.
-                .botones
-                    a(href='propone/research.html') Más info
+  mails = public._data.propone.mails
 
-        .col-md-4.caja
-            h1 Experiencias
-            #info-talleres.info.caja_propone
-                p Exposiciones sobre experiencias concretas en la aplicación de tecnologías y metodologías innovadoras en el ámbito industrial y docente.
-                .botones
-                    a(href='propone/#experiencias') Muy pronto
+  .titulo Proponé tu charla
 
-        .col-md-4.caja
-            h1 Show us
-            #info-talleres.info.caja_propone
-                p Charlas breves en las que los asistentes pueden mostrar sus proyectos innovadores al resto de la comunidad.
-                .botones
-                    a(href='propone/#showus') Muy pronto
+  .row
+    .col-md-6
+      ul.tracks
+        h3: li Track Investigación
+        p Trabajos científicos que tengan como objetivo mejorar la forma en que desarrollamos software o formamos nuevos profesionales, favoreciendo la interacción entre el ámbito académico y el industrial.
+        .center: a.boton(href='propone/research.html') Más info
+
+    .col-md-6
+      ul.tracks
+        h3: li Track Experiencias
+        p Exposiciones sobre experiencias concretas en la aplicación de tecnologías y metodologías innovadoras en el ámbito industrial y docente.
+        p Enviá tu propuesta a 
+            a(href="mailto:#{ mails.experiencias }") #{ mails.experiencias } 
+
+  .row
+    .col-md-6
+      ul.tracks
+        h3: li Talleres
+        p ¿Estás utilizando en una tecnología innovadora? ¿Te animás enseñarnos a dar los primeros pasos en un par de horas? 
+        p Enviá tu propuesta a 
+            a(href="mailto:#{ mails.handson }") #{ mails.handson } 
+
+    .col-md-6
+      ul.tracks
+        h3: li Mostrá tu proyecto
+        p ¿Estás trabajando en un proyecto novedoso? ¡Vení y contanos tus ideas!
+        p No se requiere inscripción previa, acercate con tu propuesta el día de la conferencia. En caso de dudas mandá tu consulta a 
+            a(href="mailto:#{ mails.handson }") #{ mails.handson } 

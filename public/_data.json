@@ -31,5 +31,13 @@
   	{"fecha":"10 de agosto", "evento":"Fecha límite para la presentación de trabajos"},
   	{"fecha":"31 de agosto", "evento":"Notificación de trabajos aceptados"},
   	{"fecha":"19 de septiembre", "evento":"Wisit 15"}
-  ]    
+  ],
+
+  "propone" : {
+    "mails" : {
+      "info" : "info@uqbar.org",
+      "handson" : "info@uqbar.org",
+      "experiencias" : "info@uqbar.org"
+    }
+  }    
 }
