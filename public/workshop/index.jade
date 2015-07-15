@@ -10,16 +10,16 @@ append scripts
       var uqnLatlng = new google.maps.LatLng(-34.706508,-58.2782888);
       var mapCanvas = document.getElementById('map-canvas');
       var mapOptions = {
-        zoom: 14,
-        center: uqnLatlng,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
+        'zoom': 14,
+        'center': uqnLatlng,
+        'mapTypeId': google.maps.MapTypeId.ROADMAP
       };
 
       var map = new google.maps.Map(mapCanvas, mapOptions);
       var marker = new google.maps.Marker({
-          position: uqnLatlng,
-          map: map,
-          title: 'Universidad Nacional de Quilmes'
+          'position': uqnLatlng,
+          'map': map,
+          'title': 'Universidad Nacional de Quilmes'
       });
     }
     google.maps.event.addDomListener(window, 'load', initialize);
