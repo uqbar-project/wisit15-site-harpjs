@@ -1,8 +1,5 @@
 extends _home_layout
 
-append scripts
-    != partial('../_shared/countdown/countdown_scripts')
-
 block basetag
   -var base = '.'
 
@@ -10,7 +7,6 @@ block child
     img#logoMain.img-responsive.center-block(src='assets/img/Wisit15.png')
     p.bajada.text-center Tercer workshop de ingeniería en sistemas y tecnologías de la información
     p.destacado.text-center.text-uppercase • evento gratuito •
-    != partial('../_shared/countdown/countdown')
     .row.row-eq-height
         .col-md-4.caja
             h1 Hands on
