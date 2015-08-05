@@ -56,7 +56,7 @@
         "conocimientos": [
           "HTML y CSS",
           "Git y Github", 
-          "Manejo de línea de comandos"
+          "Línea de comandos"
         ],
         "entorno": [
           "NodeJS",
@@ -65,7 +65,7 @@
           "HarpJS: sudo npm install -g harp",
           "Bower"
         ],
-        "inscripcion": "#"
+        "inscripcion": "https://eventioz.com.ar/e/creando-sitios-estaticos-con-harpjs/"
       },
       {
         "cuando": "Sábado 12 de septiembre, de 14:30 a 17:30",
@@ -89,7 +89,7 @@
           "Un editor de texto, por ejemplo SublimeText o Atom", 
           "Opcional para mostrar la app funcionando en un emulador o en un celular: Android SDK o Xcode + iOS SDK"
         ],
-        "inscripcion": "#"
+        "inscripcion": "https://eventioz.com.ar/e/desarrollo-web-mobile-con-ionic-framework"
       }
     ]  
   } 
