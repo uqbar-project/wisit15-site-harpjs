@@ -46,7 +46,7 @@
     "unq": [
       {
         "cuando": "Sábado 12 de septiembre, de 10:00 a 13:00",
-        "titulo": "Desarrollo web mobile con Ionic Framework",
+        "titulo": "Creando sitios estáticos con HarpJS",
         "abstract": [
           "Hoy en día es muy común que cada proyecto que desarrollemos tenga su propio sitio web, pero armarlo y hostearlo puede consumir más tiempo del que queremos dedicarle. En este hands-on vamos a ver cómo HarpJS nos ayuda a crear rápidamente desde pequeños sitios para proyectos hasta blogs personales, que luego podremos hostear en servicios gratuitos como Github Pages."
         ],
