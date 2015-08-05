@@ -65,9 +65,25 @@ block content
 
     .col-md-6: img#foto(src='assets/img/foto-talleres_360.jpg')
 
-  a(name='unq')
   .row.taller 
     .col-xs-12
+      a(name='uba')
+      h2.subtitulo Facultad de Ingeniería - UBA
+
+    .col-xs-12.col-md-4.datos
+      .recuadro.center 
+        span.celeste Próximamente 
+        span anunciaremos los talleres
+
+      .proximamente
+        p.cuando Viernes 4 de Septiembre
+        p.direccion Avenida Las Heras 2214, C.A.B.A 
+
+    .col-xs-12.col-md-8: #map-fiuba.map.center
+
+  .row.taller 
+    .col-xs-12
+      a(name='unq')
       h2.subtitulo Universidad Nacional de Quilmes
 
       each taller in public._data.talleres.unq
@@ -108,19 +124,3 @@ block content
         p.direccion Roque Saenz Peña 352 <br> Bernal, Pcia. de Buenos Aires
 
     .col-xs-12.col-md-8: #map-unq.map.center
-
-  .row.taller 
-    .col-xs-12
-      a(name='uba')
-      h2.subtitulo Facultad de Ingeniería - UBA
-
-    .col-xs-12.col-md-4.datos
-      .recuadro.center 
-        span.celeste Próximamente 
-        span anunciaremos los talleres
-
-      .proximamente
-        p.cuando Fecha a definir
-        p.direccion Avenida Las Heras 2214, C.A.B.A 
-
-    .col-xs-12.col-md-8: #map-fiuba.map.center
