@@ -45,6 +45,30 @@
   "talleres" : {
     "unq": [
       {
+        "cuando": "Sábado 12 de septiembre, de 10:00 a 13:00",
+        "titulo": "Desarrollo web mobile con Ionic Framework",
+        "abstract": [
+          "Hoy en día es muy común que cada proyecto que desarrollemos tenga su propio sitio web, pero armarlo y hostearlo puede consumir más tiempo del que queremos dedicarle. En este hands-on vamos a ver cómo HarpJS nos ayuda a crear rápidamente desde pequeños sitios para proyectos hasta blogs personales, que luego podremos hostear en servicios gratuitos como Github Pages."
+        ],
+        "oradores": [
+          { "nombre" : "Ariel Álvarez" }
+        ],
+        "conocimientos": [
+          "HTML y CSS",
+          "Git y Github", 
+          "Manejo de línea de comandos"
+        ],
+        "entorno": [
+          "NodeJS",
+          "Un editor/IDE: Brackets ó Sublime ó Webstorm",
+          "Git",
+          "HarpJS: sudo npm install -g harp",
+          "Bower"
+        ],
+        "inscripcion": "#"
+      },
+      {
+        "cuando": "Sábado 12 de septiembre, de 14:30 a 17:30",
         "titulo": "Desarrollo web mobile con Ionic Framework",
         "abstract": [
           "Sea porque estamos desarrollando una aplicación mobile desde cero o bien planteando una alternativa mobile para un Front End web ya existente, es un hecho que vamos a necesitar abundante Javascript. El approach más sencillo sería caer en la tentación de usar jQuery Mobile y hacer copy-paste tratar de re-utilizar el mayor código y bibliotecas posibles.",
@@ -55,9 +79,13 @@
           { "nombre" : "Matías Dumrauf" },
           { "nombre" : "Federico Aloi" }
         ],
-        "prerrequisitos": [
-          "Conocimientos básicos de: HTML, Javascript, y Angular.js",
-          "node.js <br> Instalar paquetes necesarios desde una terminal: npm install -g cordova ionic",
+        "conocimientos": [
+          "HTML", 
+          "Javascript",
+          "Angular.js"
+        ],
+        "entorno": [
+          "node.js: Instalar paquetes necesarios desde una terminal: npm install -g cordova ionic",
           "Un editor de texto, por ejemplo SublimeText o Atom", 
           "Opcional para mostrar la app funcionando en un emulador o en un celular: Android SDK o Xcode + iOS SDK"
         ],

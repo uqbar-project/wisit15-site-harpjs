@@ -53,7 +53,6 @@ block content
       p Acercate con tu notebook para venir a programar y tener una experiencia de primera mano construyendo software con estas herramientas.
 
       ul.talleres
-
         li
           .donde Universidad Nacional de Quilmes 
           .cuando 12 de septiembre - 
@@ -66,29 +65,43 @@ block content
 
     .col-md-6: img#foto(src='assets/img/foto-talleres_360.jpg')
 
-
   a(name='unq')
   .row.taller 
     .col-xs-12
       h2.subtitulo Universidad Nacional de Quilmes
 
-    each taller in public._data.talleres.unq
-      .col-xs-12
-        h3.title-bullet: li= taller.titulo
-        h4: li= taller.abstract
-        h4: li
-          each orador in taller.oradores
-            p= orador.nombre
-        h4: li
-          each pre in taller.prerrequisitos
-            p= pre
-        h4: li= taller.inscripcion
+      each taller in public._data.talleres.unq
+        .col-xs-12: ul.detalle
+          h3.title-bullet: li= taller.titulo
+          p= taller.cuando
 
+          p.destacadito Resumen:
+          each line in taller.abstract
+            p= line
+          
+          p.destacadito Oradores:
+          p  
+            each orador, index in taller.oradores
+              span  #{orador.nombre}
+                if (index < taller.oradores.length - 1)
+                  | , 
+
+          p.destacadito Prerrequisitos:
+          p Para asistir al taller es conveniente tener conocimientos básicos de:
+            ul
+              each pre in taller.conocimientos
+                li !{pre}
+          p Para aprovechar el taller al 100% te recomendamos asistir con tu compu y un entorno con:
+            ul
+              each pre in taller.entorno
+                li !{pre}
+            .center: a.boton(href='#{taller.inscripcion}') Inscribite
 
     .col-xs-12.col-md-4.datos
       .recuadro.center 
-        span.celeste Próximamente 
-        span anunciaremos más talleres
+        span Próximamente anunciaremos <br>
+        span.celeste.text-uppercase más 
+        span talleres
 
       .proximamente
         p.cuando Sábado 12 de Septiembre
