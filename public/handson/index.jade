@@ -72,10 +72,23 @@ block content
     .col-xs-12
       h2.subtitulo Universidad Nacional de Quilmes
 
+    each taller in public._data.talleres.unq
+      .col-xs-12
+        h3.title-bullet: li= taller.titulo
+        h4: li= taller.abstract
+        h4: li
+          each orador in taller.oradores
+            p= orador.nombre
+        h4: li
+          each pre in taller.prerrequisitos
+            p= pre
+        h4: li= taller.inscripcion
+
+
     .col-xs-12.col-md-4.datos
       .recuadro.center 
         span.celeste Próximamente 
-        span anunciaremos los talleres
+        span anunciaremos más talleres
 
       .proximamente
         p.cuando Sábado 12 de Septiembre

@@ -40,5 +40,29 @@
       "handson" : "info@uqbar.org",
       "experiencias" : "info@uqbar.org"
     }
-  }    
+  },
+
+  "talleres" : {
+    "unq": [
+      {
+        "titulo": "Desarrollo web mobile con Ionic Framework",
+        "abstract": [
+          "Sea porque estamos desarrollando una aplicación mobile desde cero o bien planteando una alternativa mobile para un Front End web ya existente, es un hecho que vamos a necesitar abundante Javascript. El approach más sencillo sería caer en la tentación de usar jQuery Mobile y hacer copy-paste tratar de re-utilizar el mayor código y bibliotecas posibles.",
+          "Lo cierto es que muchas de estas bibliotecas terminan siendo muy pesadas para correr en un navegador de un smartphone. No necesariamente porque el dispositivo al que esté orientado tenga poca RAM, GPU o la versión del navegador en el sistema operativo no corra de forma tan fluida. También influye el hecho de que esas bibliotecas no fueron pensadas desde el vamos para trabajar en un navegador mobile.",
+          "Enter Ionic Framework! Un framework de desarrollo pensado para el desarrollo web mobile tomando sus bases de un framework web poderoso como Angular.js. En este taller vamos a crear una aplicación desde cero utilizando distintos componentes provistos por Ionic, y mostraremos cómo implementar distintos patrones de navegabilidad (Tabs, Menú contextual, navegación vertical y horizontal, etc) y User Experience propios de una aplicación mobile. Sobre el final, veremos cómo preparar la aplicación para desplegarla en Play Store (Android), App Store (iOS)  y también en un servidor web real."
+        ],
+        "oradores": [
+          { "nombre" : "Matías Dumrauf" },
+          { "nombre" : "Federico Aloi" }
+        ],
+        "prerrequisitos": [
+          "Conocimientos básicos de: HTML, Javascript, y Angular.js",
+          "node.js <br> Instalar paquetes necesarios desde una terminal: npm install -g cordova ionic",
+          "Un editor de texto, por ejemplo SublimeText o Atom", 
+          "Opcional para mostrar la app funcionando en un emulador o en un celular: Android SDK o Xcode + iOS SDK"
+        ],
+        "inscripcion": "#"
+      }
+    ]  
+  } 
 }
