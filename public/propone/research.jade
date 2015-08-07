@@ -3,6 +3,9 @@ extends ../_shared/_base_layout
 append styles
   link(rel="stylesheet" href="propone/research.css")
 
+append scripts
+  != partial('../_shared/countdown/countdown_scripts')
+
 block content
   .titulo Research Track
 
@@ -19,6 +22,11 @@ block content
       ul
         each criterio in public._data.criterios
           li=criterio
+
+      hr
+      .submissions-countdown-container.info
+        h3 Quedan
+        h2.submissions-countdown - días - --:--:--
 
       .submissions
         a.boton(href='https://easychair.org/conferences/?conf=wisit15') ¡Enviá tu paper!

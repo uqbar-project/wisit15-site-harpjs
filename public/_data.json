@@ -40,5 +40,89 @@
       "handson" : "info@uqbar.org",
       "experiencias" : "info@uqbar.org"
     }
-  }    
+  },
+
+  "talleres" : {
+    "unq": [
+      {
+        "cuando": "Sábado 12 de septiembre, de 10:00 a 13:00",
+        "titulo": "Creando sitios estáticos con HarpJS",
+        "abstract": [
+          "Hoy en día es muy común que cada proyecto que desarrollemos tenga su propio sitio web, pero armarlo y hostearlo puede consumir más tiempo del que queremos dedicarle. En este hands-on vamos a ver cómo HarpJS nos ayuda a crear rápidamente desde pequeños sitios para proyectos hasta blogs personales, que luego podremos hostear en servicios gratuitos como Github Pages."
+        ],
+        "oradores": [
+          { 
+            "nombre" : "Ariel Álvarez",
+            "bio" : "Ariel es estudiante de la Licenciatura en Desarrollo de Software en la Universidad Nacional de Quilmes y consultor externo en sistemas de la información, con 7 años de experiencia en la industria."
+          }
+        ],
+        "conocimientos": [
+          "HTML y CSS",
+          "Git y Github", 
+          "Línea de comandos"
+        ],
+        "entorno": [
+          "NodeJS",
+          "Un editor/IDE: Brackets ó Sublime ó Webstorm",
+          "Git",
+          "HarpJS: sudo npm install -g harp",
+          "Bower"
+        ],
+        "inscripcion": "https://eventioz.com.ar/e/creando-sitios-estaticos-con-harpjs/"
+      },
+      {
+        "cuando": "Sábado 12 de septiembre, de 10:00 a 13:00",
+        "titulo": "Taller de Big Data: Cómo armar tu propia solución de Analytics con Apache Spark y Cassandra",
+        "abstract": [
+          "El taller brindará los principales conceptos para usar Apache Spark 1.4, permitiéndoles armar una solución que consuma logs de servidor web (accesslog), procese estos logs generando distintas métricas y finalmente volcando los resultados en Cassandra 2.1 para posterior consumo de una API y UI.",
+          "Algunas métricas que implementaremos: calcular paginas más visitadas, número de usuarios únicos, origen de los usuarios, transferencias, de forma que toda la información pueda estar disponibles con diferentes niveles de agregación (hora, dia, mes)",
+          "Principales tecnologías aplicadas: Spark-shell, Procesamiento Batch, Procesamiento Streaming, Cassandra CQL",
+          "El scope de trabajo es Big Data en cuanto a la captura, procesamiento y almacenamiento de datos tanto en batch como en streaming (realtime), no tocamos temas de visualización de datos."
+        ],
+        "oradores": [
+          { 
+            "nombre" : "Gustavo Arjones",
+            "bio" : "CTO & Co-founder de Socialmetrix, donde aplica big data para la generación de Dashboards y Reportes de datos sociales. Soy apasionado por crear nuevas soluciones que potencien a las personas a ser más creativas, eficientes y productivas. Esta es la razón por la cual veo Analytics y Big Data un campo tan interesante, donde puedo crear soluciones y ayudar las personas a tener insights."
+          }
+        ],
+        "conocimientos": [
+          "El código del taller está escrito en Scala, para mejor absorción de los conceptos se recomienda leer material de introducción a Scala."
+        ],
+        "entorno": [
+          "Los alumnos deben traer sus propias computadoras instaladas con Virtualbox y descargar la VM y los archivos de datos."
+        ],
+        "inscripcion": "#"
+      },
+      {
+        "cuando": "Sábado 12 de septiembre, de 14:30 a 17:30",
+        "titulo": "Desarrollo web mobile con Ionic Framework",
+        "abstract": [
+          "Sea porque estamos desarrollando una aplicación mobile desde cero o bien planteando una alternativa mobile para un Front End web ya existente, es un hecho que vamos a necesitar abundante Javascript. El approach más sencillo sería caer en la tentación de usar jQuery Mobile y hacer copy-paste tratar de re-utilizar el mayor código y bibliotecas posibles.",
+          "Lo cierto es que muchas de estas bibliotecas terminan siendo muy pesadas para correr en un navegador de un smartphone. No necesariamente porque el dispositivo al que esté orientado tenga poca RAM, GPU o la versión del navegador en el sistema operativo no corra de forma tan fluida. También influye el hecho de que esas bibliotecas no fueron pensadas desde el vamos para trabajar en un navegador mobile.",
+          "Enter Ionic Framework! Un framework de desarrollo pensado para el desarrollo web mobile tomando sus bases de un framework web poderoso como Angular.js. En este taller vamos a crear una aplicación desde cero utilizando distintos componentes provistos por Ionic, y mostraremos cómo implementar distintos patrones de navegabilidad (Tabs, Menú contextual, navegación vertical y horizontal, etc) y User Experience propios de una aplicación mobile. Sobre el final, veremos cómo preparar la aplicación para desplegarla en Play Store (Android), App Store (iOS)  y también en un servidor web real."
+        ],
+        "oradores": [
+          { 
+            "nombre" : "Matías Dumrauf",
+            "bio": "Federico es colaborador activo de Mumuki, proyecto que busca brindar educación de calidad, libre y gratuita sobre programación. Estudia Licenciatura en Desarollo de Software en UNQ y dicta dos cursos de programación en la escuela técnica Sagrado Corazón Al.Cal."
+          },
+          { 
+            "nombre": "Federico Aloi", 
+            "bio": "Matías es software architect y team leader en Agora, un startup con base en NY que unifica tus servicios de storage en el cloud y permite trabajar en forma colaborativa. Está terminando la carrera de Ingeniería en Sistemas de Información en UTN FRBA y en sus tiempos libres degusta café espresso y cervezas. Pasan los años y no puede dejar de desarrollar en C, aunque sea una vez al mes."
+          }
+        ],
+        "conocimientos": [
+          "HTML", 
+          "Javascript",
+          "Angular.js"
+        ],
+        "entorno": [
+          "node.js: Instalar paquetes necesarios desde una terminal: npm install -g cordova ionic",
+          "Un editor de texto, por ejemplo SublimeText o Atom", 
+          "Opcional para mostrar la app funcionando en un emulador o en un celular: Android SDK o Xcode + iOS SDK"
+        ],
+        "inscripcion": "https://eventioz.com.ar/e/desarrollo-web-mobile-con-ionic-framework"
+      }
+    ]  
+  } 
 }
