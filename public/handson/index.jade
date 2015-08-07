@@ -96,11 +96,10 @@ block content
             p= line
           
           p.destacadito Oradores:
-          p  
-            each orador, index in taller.oradores
-              span  #{orador.nombre}
-                if (index < taller.oradores.length - 1)
-                  | , 
+          each orador, index in taller.oradores
+            .orador
+              p.nombre #{orador.nombre}
+              p.bio #{orador.bio}
 
           p.destacadito Prerrequisitos:
           p Para asistir al taller es conveniente tener conocimientos básicos de:
