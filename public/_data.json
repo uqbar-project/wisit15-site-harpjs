@@ -104,11 +104,11 @@
         "oradores": [
           { 
             "nombre" : "Matías Dumrauf",
-            "bio": "Federico es colaborador activo de Mumuki, proyecto que busca brindar educación de calidad, libre y gratuita sobre programación. Estudia Licenciatura en Desarollo de Software en UNQ y dicta dos cursos de programación en la escuela técnica Sagrado Corazón Al.Cal."
+            "bio": "Matías es software architect y team leader en Agora, un startup con base en NY que unifica tus servicios de storage en el cloud y permite trabajar en forma colaborativa. Está terminando la carrera de Ingeniería en Sistemas de Información en UTN FRBA y en sus tiempos libres degusta café espresso y cervezas. Pasan los años y no puede dejar de desarrollar en C, aunque sea una vez al mes."
           },
           { 
             "nombre": "Federico Aloi", 
-            "bio": "Matías es software architect y team leader en Agora, un startup con base en NY que unifica tus servicios de storage en el cloud y permite trabajar en forma colaborativa. Está terminando la carrera de Ingeniería en Sistemas de Información en UTN FRBA y en sus tiempos libres degusta café espresso y cervezas. Pasan los años y no puede dejar de desarrollar en C, aunque sea una vez al mes."
+            "bio": "Federico es colaborador activo de Mumuki, proyecto que busca brindar educación de calidad, libre y gratuita sobre programación. Estudia Licenciatura en Desarollo de Software en UNQ y dicta dos cursos de programación en la escuela técnica Sagrado Corazón Al.Cal."
           }
         ],
         "conocimientos": [
