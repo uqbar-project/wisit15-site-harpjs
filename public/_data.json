@@ -29,8 +29,8 @@
   ],
   
   "fechas_papers":[
-  	{"fecha":"10 de agosto", "evento":"Fecha límite para la presentación de trabajos"},
-  	{"fecha":"31 de agosto", "evento":"Notificación de trabajos aceptados"},
+  	{"fecha":"24 de agosto", "evento":"Fecha límite para la presentación de trabajos"},
+  	{"fecha":"7 de septiembre", "evento":"Notificación de trabajos aceptados"},
   	{"fecha":"19 de septiembre", "evento":"Wisit 15"}
   ],
 
@@ -91,7 +91,7 @@
         "entorno": [
           "Los alumnos deben traer sus propias computadoras instaladas con Virtualbox y descargar la VM y los archivos de datos."
         ],
-        "inscripcion": "#"
+        "inscripcion": "https://eventioz.com.ar/e/taller-de-big-data-arma-tu-solucion-con-apache-spa"
       },
       {
         "cuando": "Sábado 12 de septiembre, de 14:30 a 17:30",
@@ -104,11 +104,11 @@
         "oradores": [
           { 
             "nombre" : "Matías Dumrauf",
-            "bio": "Federico es colaborador activo de Mumuki, proyecto que busca brindar educación de calidad, libre y gratuita sobre programación. Estudia Licenciatura en Desarollo de Software en UNQ y dicta dos cursos de programación en la escuela técnica Sagrado Corazón Al.Cal."
+            "bio": "Matías es software architect y team leader en Agora, un startup con base en NY que unifica tus servicios de storage en el cloud y permite trabajar en forma colaborativa. Está terminando la carrera de Ingeniería en Sistemas de Información en UTN FRBA y en sus tiempos libres degusta café espresso y cervezas. Pasan los años y no puede dejar de desarrollar en C, aunque sea una vez al mes."
           },
           { 
             "nombre": "Federico Aloi", 
-            "bio": "Matías es software architect y team leader en Agora, un startup con base en NY que unifica tus servicios de storage en el cloud y permite trabajar en forma colaborativa. Está terminando la carrera de Ingeniería en Sistemas de Información en UTN FRBA y en sus tiempos libres degusta café espresso y cervezas. Pasan los años y no puede dejar de desarrollar en C, aunque sea una vez al mes."
+            "bio": "Federico es colaborador activo de Mumuki, proyecto que busca brindar educación de calidad, libre y gratuita sobre programación. Estudia Licenciatura en Desarollo de Software en UNQ y dicta dos cursos de programación en la escuela técnica Sagrado Corazón Al.Cal."
           }
         ],
         "conocimientos": [
