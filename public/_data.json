@@ -52,7 +52,7 @@
         ],
         "oradores": [
           { 
-            "nombre" : "Juan Pablo Sarraceno",
+            "nombre" : "Juan Pablo Saraceno",
             "bio" : "JP lleva unos 15 años involucrado en la industria del software, enfocado mayormente en web, mobile e IoT. Desarolló soluciones de software para distintos rubros incluyendo motores de búsqueda, redes sociales, domótica, CMS, CRM, machine learning, entre otras. Actualmente es Gerente de Desarrollo de SCVSoft y Avi-on Labs. Es además Co-Fundador de los Meetups locales SUGAR (Scala User Group Argentina) y Meetup-JS Argentina."
           }
         ],
