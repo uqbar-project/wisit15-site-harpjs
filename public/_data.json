@@ -43,6 +43,30 @@
   },
 
   "talleres" : {
+    "uba": [
+      {
+        "cuando": "Viernes 4 de septiembre, de 20:00 a 23:00",
+        "titulo": "Functional Reactive Programming en Javascript",
+        "abstract": [
+          "En esta charla-taller vamos a ver como desarrollar una aplicación web simple en Javascript aprovechando algunas librerías modernas que surgieron recientemente como React, para conseguir un flujo de datos unidireccional. Vamos a ver como esto nos beneficia como desarrolladores haciendo nuestro código más predecible, conciso y testeable."
+        ],
+        "oradores": [
+          { 
+            "nombre" : "Juan Pablo Sarraceno",
+            "bio" : ""
+          }
+        ],
+        "conocimientos": [
+          "Conocimiento básico de Javascript",
+          "Haber desarrollado aplicaciones web", 
+          "Haber usado alguna librería o framework de Javascript en el pasado (Backbone, Angular, Knockout, etc.)",
+          "No es requerido pero puede ser útil: programación funcional, React, ECMAScript 6, node."
+        ],
+        "entorno": [
+        ],
+        "inscripcion": ""
+      }
+    ], 
     "unq": [
       {
         "cuando": "Sábado 12 de septiembre, de 10:00 a 13:00",
