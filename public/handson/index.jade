@@ -54,14 +54,14 @@ block content
 
       ul.talleres
         li
+          .donde Facultad de Ingeniería UBA 
+          .cuando Viernes 4 de septiembre - 
+            a(href='handson/index#uba') Más info
+        li
           .donde Universidad Nacional de Quilmes 
-          .cuando 12 de septiembre - 
+          .cuando Sábado 12 de septiembre - 
             a(href='handson/index#unq') Más info
 
-        li
-          .donde Facultad de Ingeniería UBA 
-          .cuando Fecha a definir - 
-            a(href='handson/index#uba') Más info
 
     .col-md-6: img#foto(src='assets/img/foto-talleres_360.jpg')
 
@@ -70,10 +70,37 @@ block content
       a(name='uba')
       h2.subtitulo Facultad de Ingeniería - UBA
 
+      each taller in public._data.talleres.uba
+        .col-xs-12: ul.detalle
+          h3.title-bullet: li= taller.titulo
+          p= taller.cuando
+
+          p.destacadito Resumen:
+          each line in taller.abstract
+            p= line
+          
+          p.destacadito Oradores:
+          each orador, index in taller.oradores
+            .orador
+              p.nombre #{orador.nombre}
+              p.bio #{orador.bio}
+
+          p.destacadito Prerrequisitos:
+          p Para asistir al taller es conveniente tener conocimientos básicos de:
+            ul
+              each pre in taller.conocimientos
+                li !{pre}
+          p Para aprovechar el taller al 100% te recomendamos asistir con tu compu y un entorno con:
+            ul
+              each pre in taller.entorno
+                li !{pre}
+            .center: a.boton(href='#{taller.inscripcion}') Inscribite
+
     .col-xs-12.col-md-4.datos
       .recuadro.center 
-        span.celeste Próximamente 
-        span anunciaremos los talleres
+        span Próximamente anunciaremos <br>
+        span.celeste.text-uppercase más 
+        span talleres
 
       .proximamente
         p.cuando Viernes 4 de Septiembre
