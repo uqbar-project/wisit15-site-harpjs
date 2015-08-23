@@ -56,18 +56,18 @@ block content
         li
           .donde Facultad de Ingeniería UBA 
           .cuando Viernes 4 de septiembre - 
-            a(href='handson/index#uba') Más info
+            a(href='handson#uba') Más info
         li
           .donde Universidad Nacional de Quilmes 
           .cuando Sábado 12 de septiembre - 
-            a(href='handson/index#unq') Más info
+            a(href='handson#unq') Más info
 
 
     .col-md-6: img#foto(src='assets/img/foto-talleres_360.jpg')
 
-  .row.taller 
+  a(name='uba')
+  .row.taller
     .col-xs-12
-      a(name='uba')
       h2.subtitulo Facultad de Ingeniería - UBA
 
       each taller in public._data.talleres.uba
@@ -108,9 +108,9 @@ block content
 
     .col-xs-12.col-md-8: #map-fiuba.map.center
 
+  a(name='unq')
   .row.taller 
     .col-xs-12
-      a(name='unq')
       h2.subtitulo Universidad Nacional de Quilmes
 
       each taller in public._data.talleres.unq
