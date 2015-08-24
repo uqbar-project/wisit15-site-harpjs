@@ -45,7 +45,8 @@
   "talleres" : {
     "uba": [
       {
-        "cuando": "Viernes 4 de septiembre, de 20:00 a 23:00",
+        "id": "js",
+        "cuando": "Viernes 4 de septiembre, de 19:00 a 22:00",
         "titulo": "Functional Reactive Programming en Javascript",
         "abstract": [
           "En esta charla-taller vamos a ver como desarrollar una aplicación web simple en Javascript aprovechando algunas librerías modernas que surgieron recientemente como React, para conseguir un flujo de datos unidireccional. Vamos a ver como esto nos beneficia como desarrolladores haciendo nuestro código más predecible, conciso y testeable."
@@ -69,6 +70,7 @@
     ], 
     "unq": [
       {
+        "id": "harpjs",
         "cuando": "Sábado 12 de septiembre, de 10:00 a 13:00",
         "titulo": "Creando sitios estáticos con HarpJS",
         "abstract": [
@@ -95,6 +97,7 @@
         "inscripcion": "https://eventioz.com.ar/e/creando-sitios-estaticos-con-harpjs/"
       },
       {
+        "id": "spark",
         "cuando": "Sábado 12 de septiembre, de 10:00 a 13:00",
         "titulo": "Taller de Big Data: Cómo armar tu propia solución de Analytics con Apache Spark y Cassandra",
         "abstract": [
@@ -118,6 +121,7 @@
         "inscripcion": "https://eventioz.com.ar/e/taller-de-big-data-arma-tu-solucion-con-apache-spa"
       },
       {
+        "id": "ionic",
         "cuando": "Sábado 12 de septiembre, de 14:30 a 17:30",
         "titulo": "Desarrollo web mobile con Ionic Framework",
         "abstract": [
@@ -146,7 +150,34 @@
           "Opcional para mostrar la app funcionando en un emulador o en un celular: Android SDK o Xcode + iOS SDK"
         ],
         "inscripcion": "https://eventioz.com.ar/e/desarrollo-web-mobile-con-ionic-framework"
+      },
+      {
+        "id": "tvd",
+        "cuando": "Sábado 12 de septiembre, de 14:30 a 17:30",
+        "titulo": "Programando Aplicaciones Interactivas para la Televisión Digital Terrestre",  
+        "abstract": [
+          "La televisión digital abierta ya es una realidad en la Argentina. La misma ha reemplazado la vieja televisión analógica dando un importante salto de calidad. Entre las ventajas se destacan: mejora de calidad de la señal, mayor definición de la imagen y mejor aprovechamiento del ancho de banda. Sin embargo, otro aspecto menos explotado, es la capacidad de enviar junto a la señal audiovisual aplicaciones que complementan a la misma. El usuario es el televidente a través de su control remoto. En este hands-on vamos a ver algunas técnicas y tecnologías involucradas en la creación de estos programas. Vamos a construir una pequeña aplicación que quedará lista para ser modulada dentro de la señal de televisión."
+        ],
+        "oradores": [
+          { 
+            "nombre" : "Leonardo Gassman",
+            "bio": "Leo es profesor de la Tecnicatura Universitaria en Programación Informática y de la Ingeniería en Automatización y Control Industrial que se dictan en la Universidad Nacional de Quilmes. Cuenta con más de 10 años de experiencia en la industria del desarrollo de software y está realizando su doctorado en la UNQ en temas de Televisión Digital."
+          },
+          { 
+            "nombre": "Federico Aloi", 
+            "bio": "Federico es colaborador activo de Mumuki, proyecto que busca brindar educación de calidad, libre y gratuita sobre programación. Estudia Licenciatura en Desarollo de Software en UNQ y dicta dos cursos de programación en la escuela técnica Sagrado Corazón Al.Cal."
+          }
+        ],
+        "conocimientos": [
+          "XML", 
+          "Algún lenguaje de programación (Si es un lenguaje de scripting al estilo python mejor)"
+        ],
+        "entorno": [
+          "Eclipse con el plugin LUA  y NCL.",
+          "Tener instalado Ginga o en su defecto una máquina virtual con Ginga instalado"
+        ],
+        "inscripcion": "https://eventioz.com.ar/e/desarrollo-web-mobile-con-ionic-framework"
       }
-    ]  
+    ]
   } 
 }
