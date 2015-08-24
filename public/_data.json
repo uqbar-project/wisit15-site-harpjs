@@ -162,10 +162,6 @@
           { 
             "nombre" : "Leonardo Gassman",
             "bio": "Leo es profesor de la Tecnicatura Universitaria en Programación Informática y de la Ingeniería en Automatización y Control Industrial que se dictan en la Universidad Nacional de Quilmes. Cuenta con más de 10 años de experiencia en la industria del desarrollo de software y está realizando su doctorado en la UNQ en temas de Televisión Digital."
-          },
-          { 
-            "nombre": "Federico Aloi", 
-            "bio": "Federico es colaborador activo de Mumuki, proyecto que busca brindar educación de calidad, libre y gratuita sobre programación. Estudia Licenciatura en Desarollo de Software en UNQ y dicta dos cursos de programación en la escuela técnica Sagrado Corazón Al.Cal."
           }
         ],
         "conocimientos": [
