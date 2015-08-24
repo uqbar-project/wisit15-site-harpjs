@@ -9,8 +9,8 @@ before_script:
 - npm install -g component@1.1.0
 - npm install -g harp
 - cd public/assets
-- component install
-- component build
+- component@1.1.0 install
+- component@1.1.0 build
 - cd ../..
 - chmod +x ./deployDev.sh
 - chmod +x ./deployMaster.sh
