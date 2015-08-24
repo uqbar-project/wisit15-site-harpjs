@@ -6,11 +6,11 @@ addons:
 node_js:
 - 0.12.3
 before_script:
-- npm install -g component@1.1.0
+- npm install component@1.1.0
 - npm install -g harp
 - cd public/assets
-- component@1.1.0 install
-- component@1.1.0 build
+- component install
+- component build
 - cd ../..
 - chmod +x ./deployDev.sh
 - chmod +x ./deployMaster.sh
