@@ -67,10 +67,11 @@ block content
 
   a(name='uba')
   .row.taller
-    .col-xs-12
+    .col-xs-12.detalle-talleres
       h2.subtitulo Facultad de Ingeniería - UBA
 
       each taller in public._data.talleres.uba
+        a(name='#{taller.id}')
         .col-xs-12: ul.detalle
           h3.title-bullet: li= taller.titulo
           p= taller.cuando
@@ -110,10 +111,11 @@ block content
 
   a(name='unq')
   .row.taller 
-    .col-xs-12
+    .col-xs-12.detalle-talleres
       h2.subtitulo Universidad Nacional de Quilmes
 
       each taller in public._data.talleres.unq
+        a(name='#{taller.id}')
         .col-xs-12: ul.detalle
           h3.title-bullet: li= taller.titulo
           p= taller.cuando
