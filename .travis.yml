@@ -1,8 +1,6 @@
 language: node_js
-addons:
-  apt:
-    - lftp
-
+install:
+- sudo apt-get install lftp
 node_js:
 - 0.12.3
 before_script:
