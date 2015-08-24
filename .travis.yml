@@ -1,8 +1,8 @@
 language: node_js
 addons:
   apt:
-    - lftp
-
+    packages:
+      - lftp
 node_js:
 - 0.12.3
 before_script:
