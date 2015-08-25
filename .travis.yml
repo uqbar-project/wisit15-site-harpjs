@@ -1,14 +1,17 @@
 language: node_js
-install:
-- sudo apt-get install lftp
+sudo: required
+addons:
+  apt:
+    packages:
+      - lftp
 node_js:
 - 0.12.3
 before_script:
-- npm install -g component@1.1.0
+- npm install component@1.1.0
 - npm install -g harp
 - cd public/assets
-- component install
-- component build
+- ../../node_modules/.bin/component install --debug
+- ../../node_modules/.bin/component build --debug
 - cd ../..
 - chmod +x ./deployDev.sh
 - chmod +x ./deployMaster.sh
