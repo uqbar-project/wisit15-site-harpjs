@@ -7,11 +7,11 @@ addons:
 node_js:
 - 0.12.3
 before_script:
-- npm install -g component@1.1.0
+- npm install component@1.1.0
 - npm install -g harp
 - cd public/assets
-- component install --debug
-- component build --debug
+- ../../node_modules/.bin/component install --debug
+- ../../node_modules/.bin/component build --debug
 - cd ../..
 - chmod +x ./deployDev.sh
 - chmod +x ./deployMaster.sh

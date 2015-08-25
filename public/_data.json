@@ -170,7 +170,8 @@
         ],
         "entorno": [
           "Eclipse con el plugin LUA  y NCL.",
-          "Tener instalado Ginga o en su defecto una máquina virtual con Ginga instalado"
+          "Tener instalado Ginga o en su defecto una máquina virtual con Ginga instalado",
+	  "Podés instalar las herramientas siguiendo las intrucciones de este <a href='https://sites.google.com/site/tvdunq/home/material/software'>link</a> o usando la máquina virtual que te podés bajar de este otro <a href='https://drive.google.com/open?id=0B8tjZoe7LAQZX2F6anRaMV81bnc'>link</a>"
         ],
         "inscripcion": "https://eventioz.com.ar/e/programando-aplicaciones-interactivas-para-la-tele"
       }
