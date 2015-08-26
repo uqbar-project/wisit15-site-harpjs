@@ -176,5 +176,18 @@
         "inscripcion": "https://eventioz.com.ar/e/programando-aplicaciones-interactivas-para-la-tele"
       }
     ]
-  } 
+  }, 
+
+  "charlas" : {
+    "meteor": {
+      "title": "Introducción a Meteor.js",
+      "abstract": "Meteor se define como una plataforma de código abierto para construir aplicaciones móviles y webs puramente en Javascript. En esta charla voy a contarles de qué se trata esta nueva tecnología que nos permite desarrollar productos a la altura de las grandes aplicaciones del mercado, pero en una fracción del tiempo.",
+      "speakers": [
+        {
+        "name": "Pablo Chiappetti",
+        "bio": "Desarrollador de 26 años, pasó los últimos ocho programando en diferentes tecnologías relacionadas con la web. Trabaja en Bikestorming como desarrollador web, backend y mobile. Organizador del meetup de Meteor en Buenos Aires."
+        }
+      ]
+    }
+  }
 }
