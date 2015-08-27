@@ -63,8 +63,6 @@
           "Haber usado alguna librería o framework de Javascript en el pasado (Backbone, Angular, Knockout, etc.)",
           "No es requerido pero puede ser útil: programación funcional, React, ECMAScript 6, node."
         ],
-        "entorno": [
-        ],
         "inscripcion": "https://eventioz.com.ar/e/functional-reactive-programming-en-javascript"
       }
     ], 
