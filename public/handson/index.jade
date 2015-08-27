@@ -91,11 +91,13 @@ block content
             ul
               each pre in taller.conocimientos
                 li !{pre}
-          p Para aprovechar el taller al 100% te recomendamos asistir con tu compu y un entorno con:
-            ul
-              each pre in taller.entorno
-                li !{pre}
-            .center: a.boton(href='#{taller.inscripcion}') Inscribite
+
+          if taller.entorno
+            p Para aprovechar el taller al 100% te recomendamos asistir con tu compu y un entorno con:
+              ul
+                each pre in taller.entorno
+                  li !{pre}
+              .center: a.boton(href='#{taller.inscripcion}') Inscribite
 
     .col-xs-12.col-md-4.datos
       .proximamente
