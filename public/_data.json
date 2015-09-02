@@ -114,7 +114,10 @@
           "El código del taller está escrito en Scala, para mejor absorción de los conceptos se recomienda leer material de introducción a Scala."
         ],
         "entorno": [
-          "Los alumnos deben traer sus propias computadoras instaladas con Virtualbox y descargar la VM y los archivos de datos."
+          "Los alumnos deben traer sus propias computadoras instaladas con Virtualbox y descargar la VM y los archivos de datos.",
+	  "Para el taller vamos a estar usando una VM que se crea con Vagrant.",
+	  "La VM esta acá <a href='https://github.com/arjones/vagrant-spark-zeppelin'>github.com/arjones/vagrant-spark-zepellin</a>",
+	  "En el blog de Gustavo tienen más información para instalar el entorno: <a href='http://arjon.es/2015/08/23/vagrant-spark-zeppelin-a-toolbox-to-the-data-analyst/'>Link</a>"
         ],
         "inscripcion": "https://eventioz.com.ar/e/taller-de-big-data-arma-tu-solucion-con-apache-spa"
       },
