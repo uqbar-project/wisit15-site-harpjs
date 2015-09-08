@@ -14,7 +14,7 @@
       { "nombre": "Diego Golombek" },
       { "nombre": "María Juliana Leone" }
     ],
-    "oradoresForSchedule": "Ale Pulver, Alejo Salles, Mariano Sigman, Diego Golombek, Ma. Juliana Leone"
+    "oradoresForSchedule": "Ale Pulver, Alejo Salles, Mariano Sigman, Diego Golombek y Ma. Juliana Leone"
   },
   "meteor": {
     "titulo": "Introducción a Meteor.js",
@@ -42,12 +42,44 @@
   },
   "carpeDiem": {
     "titulo": "Carpe Diem - No pierdas ni un segundo en operaciones",
+    "abstract": [
+      "Carpe Society es un caso de desarrollo de una aplicación móvil iOS. Su backend ha sido montado integramente sobre Heroku (y sus Add-Ons) usando NodeJS, Express, MongoDB, Redis y Elastic entre otras tecnologías. Es un claro ejemplo del escaso tiempo dedicado a la infraestructura, integración de servicios o algún otro aspecto relativo a operaciones."
+    ],
     "oradores": [
       {
         "nombre": "Matías Gorostegui"
       },
       {
         "nombre": "Juan Manuel Álvarez"
+      }
+    ]
+  }, 
+  "softwareLibre": {
+    "titulo": "Software Libre en la UNQ", 
+    "abstract": [
+      "De una dos redes internas de 15 máquinas cada una, a la situación actual. Usamos SL desde 1995 aunque usted no lo crea, en nuestro primer servidor de correo y nuestro primer servidor web, operativos desde 1996. Retrocesos, retrasos, errores hasta que (casi) toda la infraestructura de la UNQ es SL. La aventura de los escritorios con SL. Varios aprendizajes, desafíos por venir para el software libre y las tecnologías abiertas."
+    ],
+    "oradores" : [
+      { 
+        "nombre": "Leo Marina",
+        "bio": "Desde 1995 trabajo en la UNQ en soporte técnico, administración de servidores y adminstración de redes. Aprendí con cada nueva implementación de tecnología que fuimos haciendo. Actualmente estoy a cargo de la Dirección de Asistencia Técnica a Carreras en Tecnologías Abiertas de la UNQ. Desde el año pasado formo parte del Consejo Asesor de Conectar Igualdad." 
+      }
+    ]
+  },
+  "docker": {
+    "titulo": "Docker como la máxima expresión de Devops",
+    "abstract": [
+      "Docker es una de las tecnologías que más revolucionó el manejo de ambientes y despliegue de aplicaciones a gran escala. Veremos por qué es tan importante conocer esta tecnología para desarrolladores y administradores de infraestructura y cómo facilita aplicar prácticas de devops.",
+      "Durante la charla introduciremos la tecnología, como así tambien los casos prácticos sobre clustering, repositorios privados de imágenes y arquitectura productivas."
+    ],
+    "oradores": [
+      { 
+        "nombre" : "Gustavo Brey",
+        "bio": "Gustavo Andres Brey es Ingeniero en Sistemas de la Información con más de 15 años de experiencia en la Industria IT. Actualmente es el CIO del Instituto Nacional de Servicios Sociales para Jubilados y Pensionados (INSSJP/PAMI), donde está impulsando un cambio de paradigma innovador en IT para la gestión de la salud pública Argentina. Desde 2004 es fundador y profesor de la materia Arquitectura de Proyectos de IT en la UTN- FRBA. A su vez es Co-Fundador de CONF4IT, una organización sin fines de lucro, que desarrolla conferencias agnósticas para distintas comunidades IT como ARQCONF y KIDSCONF. Participó en importantes conferencias de Tecnologías de la Información, Salud , Innovación, Open Source, Big Data, Arquitectura de Software, Gobierno y Datos Abiertos, así como de Hackathones."
+     }, 
+      { 
+        "nombre" : "Andrés Calabrese",
+        "bio": "Ingeniero en Sistema de Información con más de 11 años de experiencia tanto en puestos de liderazgo técnico en grandes empresas, como así también como CTO en varios emprendiendo tecnologicos como socio. Andrés comenzó su carrera en IBM, liderando proyectos complejos en diferentes tecnologías, a su vez promovió encuentros de colaboración técnica. Como CTO definió, planificó e implementó prácticas de Devops que permitieron guiar tecnologicamente a la compañía en términos metodológicos, de desarrollo e infraestructura." 
       }
     ]
   }
