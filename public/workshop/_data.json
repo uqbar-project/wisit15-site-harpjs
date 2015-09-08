@@ -1,0 +1,38 @@
+{
+  "espacioTiempo" : {
+    "titulo": "La representación espacial del tiempo en un cuerpo de datos masivos",
+    "abstract": [
+      "Es usual representar conceptos temporales con metáforas basadas en el espacio, lo que se refleja incluso en nuestra forma de hablar (por ejemplo, cuando decimos 'se acerca la Navidad'). En este trabajo estudiamos la representación espacial del tiempo utilizando un experimento masivo en la web en el que participaron más de 1000 sujetos. El experimento está compuesto por cinco tareas, en las cuales los sujetos debían elegir ubicación, tamaño y color de distinto tipo de eventos temporales. Observamos varios efectos comunes en la representación.  En primer lugar, y en concordancia con la dirección de escritura en nuestra cultura, la dirección del tiempo es de izquierda a derecha, con una leve pero significativa inclinación hacia arriba. Luego, el tamaño de las figuras aumenta a medida que avanza el tiempo, así como en fines de semana y en primavera y verano, los días y estaciones por lo general preferidas. En cuanto al color, los hombres y las mujeres difieren para representar el tiempo, pero el color verde se asocia al futuro más allá de esas diferencias. Por último, la representación de eventos en una línea temporal revela dos hechos interesantes: primero, hacemos un zoom en el hoy, y segundo,  cuanto mayor es nuestra edad, más lejos ubicamos nuestra vejez. Estos resultados extienden evidencias previas y demuestran que utilizamos distintas propiedades espaciales para definir características particulares del tiempo."
+    ],
+    "oradores": [
+      {
+        "nombre": "Alejandro Pulver", 
+        "bio": "Contribuí a proyectos de código abierto de modificaciones del motor gráfico del Quake II (QuDos, quake2xp, etc). Durante el 2008 y 2009 participé del Google Summer of Code para el proyecto FreeBSD, donde realicé mejoras para el sistema de ports (paquetes de software). También fui usuario y desarrollador de FreeBSD desde 2006 hasta 2011, más que nada manteniendo ports y haciendo mejoras al sistema. Desde el 2009 hago la carrera de Lic. en Ciencias de la Computación en la Universidad de Buenos Aires, y actualmente estoy finalizando la tesis sobre neurociencia. En el medio hice el curso de piloto privado de avión y estudié japonés durante 3 años. Actualmente trabajo en 10pines, una empresa de desarrollo de software, y junto fuerzas para terminar la tesis. Creo que las computadoras podrían hacer más cosas solas de las que las solemos usar, y deberían hacer nuestras vidas más fáciles en vez de complicadas (cosa que no me parece que se esté logrando). "
+      }
+    ]
+  },
+  "meteor": {
+    "titulo": "Introducción a Meteor.js",
+    "abstract": [
+      "Meteor se define como una plataforma de código abierto para construir aplicaciones móviles y webs puramente en Javascript. En esta charla voy a contarles de qué se trata esta nueva tecnología que nos permite desarrollar productos a la altura de las grandes aplicaciones del mercado, pero en una fracción del tiempo."
+    ],
+    "oradores": [
+      {
+      "nombre": "Pablo Chiappetti",
+      "bio": "Desarrollador de 26 años, pasó los últimos ocho programando en diferentes tecnologías relacionadas con la web. Trabaja en Bikestorming como desarrollador web, backend y mobile. Organizador del meetup de Meteor en Buenos Aires."
+      }
+    ]
+  },
+  "ciaa": {
+    "titulo": "Implementación de protocolo Firmata para la CIAA: Un protocolo comunicación de dispositivos físicos, con entornos de programación gráficos tales como Snap y Scratch.", 
+    "abstract": [
+      "En este Trabajo de investigación de la carrera Ingeniería en Automatización y Control Industrial se presenta la implementación del protocolo Firmata para la CIAA (Computadora Industrial Abierta Argentina). Este protocolo de comunicación permite la programación de dispositivos físicos desde la PC utilizando entornos con lenguajes gráficos de programación tales como Snap y Scratch. ", 
+      "Se expondrá la arquitectura de dicho protocolo y su implementación como un programa para la CIAA escrito en lenguaje C. El programa utiliza un Sistema Operativo en Tiempo Real (RTOS) para microcontroladores, encargado de planificar las tareas de comunicación, y una HAL que comanda los periféricos de microcontrolador de la CIAA."
+    ],
+    "oradores": [
+      {
+      "nombre": "Ian Olivieri",
+      "bio": "Ian Olivieri, de 22 años, es un Técnico Aviónico recibido de la Escuela de Educación Tecnica Nº7, Taller Regional Quilmes, estudiante de la carrera de Ingeniería en Automatización y Control Industrial de la Universidad Nacional de Quilmes (IACI - UNQ). Actualmente trabaja como investigador becado por el Consejo Interuniversitario Nacional (CIN) en el tema \"Desarrollo de sistemas embebidos basados en tecnología de objetos, con requerimientos de confiabilidad y respuesta en tiempo real\", en la Universidad Nacional de Quilmes."}
+    ]
+  }
+}

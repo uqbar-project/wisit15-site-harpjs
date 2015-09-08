@@ -177,32 +177,5 @@
         "inscripcion": "https://eventioz.com.ar/e/programando-aplicaciones-interactivas-para-la-tele"
       }
     ]
-  }, 
-
-  "charlas" : {
-    "meteor": {
-      "titulo": "Introducción a Meteor.js",
-      "abstract": [
-        "Meteor se define como una plataforma de código abierto para construir aplicaciones móviles y webs puramente en Javascript. En esta charla voy a contarles de qué se trata esta nueva tecnología que nos permite desarrollar productos a la altura de las grandes aplicaciones del mercado, pero en una fracción del tiempo."
-      ],
-      "oradores": [
-        {
-        "nombre": "Pablo Chiappetti",
-        "bio": "Desarrollador de 26 años, pasó los últimos ocho programando en diferentes tecnologías relacionadas con la web. Trabaja en Bikestorming como desarrollador web, backend y mobile. Organizador del meetup de Meteor en Buenos Aires."
-        }
-      ]
-    },
-    "ciaa": {
-      "titulo": "Implementación de protocolo Firmata para la CIAA: Un protocolo comunicación de dispositivos físicos, con entornos de programación gráficos tales como Snap y Scratch.", 
-      "abstract": [
-        "En este Trabajo de investigación de la carrera Ingeniería en Automatización y Control Industrial se presenta la implementación del protocolo Firmata para la CIAA (Computadora Industrial Abierta Argentina). Este protocolo de comunicación permite la programación de dispositivos físicos desde la PC utilizando entornos con lenguajes gráficos de programación tales como Snap y Scratch. ", 
-        "Se expondrá la arquitectura de dicho protocolo y su implementación como un programa para la CIAA escrito en lenguaje C. El programa utiliza un Sistema Operativo en Tiempo Real (RTOS) para microcontroladores, encargado de planificar las tareas de comunicación, y una HAL que comanda los periféricos de microcontrolador de la CIAA."
-      ],
-      "oradores": [
-        {
-        "nombre": "Ian Olivieri",
-        "bio": "Ian Olivieri, de 22 años, es un Técnico Aviónico recibido de la Escuela de Educación Tecnica Nº7, Taller Regional Quilmes, estudiante de la carrera de Ingeniería en Automatización y Control Industrial de la Universidad Nacional de Quilmes (IACI - UNQ). Actualmente trabaja como investigador becado por el Consejo Interuniversitario Nacional (CIN) en el tema \"Desarrollo de sistemas embebidos basados en tecnología de objetos, con requerimientos de confiabilidad y respuesta en tiempo real\", en la Universidad Nacional de Quilmes."}
-      ]
-    }
   }
 }

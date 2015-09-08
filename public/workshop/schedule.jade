@@ -1,0 +1,40 @@
+mixin special(time, title)
+  tr
+    td.horario #{time}
+    td.special(colspan=4) #{title}
+
+mixin talk(name)
+  -talk = public.workshop._data[name]
+  td.talk 
+    .title #{talk.titulo}
+    .speaker 
+      each orador in talk.oradores
+        .orador #{orador.nombre}
+
+h2.subtitulo Cronograma
+table
+  tr
+    th.ubicacion
+    th.ubicacion Sala 1 - Auditorio
+    th.ubicacion Sala 2 - Aula 22
+  +special('9:00', 'Recepción')
+  +special('9:30', 'Inauguración')
+  tr
+    td.horario 10:00
+    +talk('espacioTiempo')
+  tr
+    td.horario 10:45
+    td.talk
+      .title Carpe Diem - No pierdas ni un segundo en operaciones
+      .speaker Matías Gorostegui, Juan Manuel Álvarez
+  tr
+    td.horario 11:15
+    td.special(colspan=4) Break     
+  tr 
+    td.horario 11:30
+    td.talk
+      .title Software Libre en la UNQ
+      .speaker Leo Marina
+    td.talk
+      .title Docker como la máxima expresión de Devops
+      .speaker Gustavo Brey, Andrés Calabrese

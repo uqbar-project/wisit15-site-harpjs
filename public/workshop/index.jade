@@ -47,32 +47,7 @@ block content
     .col-md-6: img#foto(src='assets/img/foto-frba-aula-magna.png')
 
   .row.cronograma: .col-xs-12
-    table
-      tr
-        th(colspan=5) Cronograma
-      tr
-        td.horario 9:00
-        td.special(colspan=4) Recepción
-      tr
-        td.horario 9:30
-        td.special Inauguración      
-      tr
-        td.horario 10:00
-        td.title La representación espacial del tiempo en un cuerpo de datos masivos 
-        td.speaker Alejandro Pulver
-      tr
-        td.horario 10:45
-        td.title Carpe Diem - No pierdas ni un segundo en operaciones
-        td.speaker Matías Gorostegui, Juan Manuel Álvarez
-      tr
-        td.horario 11:15
-        td.special Break     
-      tr 
-        td.horario 11:30
-        td.title Software Libre en la UNQ
-        td.speaker Leo Marina
-        td.title Docker como la máxima expresión de Devops
-        td.special Gustavo Brey, Andrés Calabrese
+    != partial('./schedule.jade')
 
   .row 
     .col-md-4.datos
@@ -85,18 +60,18 @@ block content
 
   .row: .col-xs-12: h2.subtitulo Charlas confirmadas
   .row.detalle-talleres
-    each taller, id in public._data.charlas
+    each taller, id in public.workshop._data
       a(name='#{id}')
       .col-xs-12: ul.detalle
         h3.title-bullet: li= taller.titulo
 
         p.destacadito Resumen:
-        each line in taller.abstract
-          p= line
+          each line in taller.abstract
+            p= line
         
         p.destacadito Oradores:
-        each orador, index in taller.oradores
-          .orador
-            p.nombre #{orador.nombre}
-            p.bio #{orador.bio}
+          each orador, index in taller.oradores
+            .orador
+              p.nombre #{orador.nombre}
+              p.bio #{orador.bio}
 
