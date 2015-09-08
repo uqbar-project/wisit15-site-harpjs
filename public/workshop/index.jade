@@ -69,20 +69,21 @@ block content
   .row: .col-xs-12: h2.subtitulo Charlas confirmadas
   .row.detalle-talleres
     each taller, id in public.workshop._data
-      a(name='#{id}')
-      .col-xs-12: ul.detalle
-        h3.title-bullet: li= taller.titulo
-        p: +oradores(taller)
+      .col-xs-12
+        a.anchor(name='#{id}')
+        ul.detalle
+          h3.title-bullet: li= taller.titulo
+          p: +oradores(taller)
 
-        if taller.abstract
-          p.destacadito Resumen
-            .abstract
-              each line in taller.abstract
-                p= line
-        
-        each orador, index in taller.oradores
-          if orador.bio
-            .orador
-              p.nombre #{orador.nombre}
-              p.bio #{orador.bio}
+          if taller.abstract
+            p.destacadito Resumen
+              .abstract
+                each line in taller.abstract
+                  p= line
+          
+          each orador, index in taller.oradores
+            if orador.bio
+              .orador
+                p.nombre #{orador.nombre}
+                p.bio #{orador.bio}
 

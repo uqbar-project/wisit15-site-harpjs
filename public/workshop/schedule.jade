@@ -17,8 +17,9 @@ mixin special(time, title)
 mixin talk(name)
   -talk = public.workshop._data[name]
   td.talk 
-    .title #{talk.titulo}
-    .speaker: +oradores(talk)
+    a(href='workshop/\##{name}')
+      .title #{talk.titulo}
+      .speaker: +oradores(talk)
 
 mixin talks(time, ...names)
   tr
