@@ -82,5 +82,36 @@
         "bio": "Ingeniero en Sistema de Información con más de 11 años de experiencia tanto en puestos de liderazgo técnico en grandes empresas, como así también como CTO en varios emprendiendo tecnologicos como socio. Andrés comenzó su carrera en IBM, liderando proyectos complejos en diferentes tecnologías, a su vez promovió encuentros de colaboración técnica. Como CTO definió, planificó e implementó prácticas de Devops que permitieron guiar tecnologicamente a la compañía en términos metodológicos, de desarrollo e infraestructura." 
       }
     ]
+  },
+  "nahual": {
+    "titulo": "Nahual: la experiencia tecnológico-solidaria más caótica",
+    "oradores": [
+      { "nombre": "Mara Dalponte" },
+      { "nombre": "Francisco Ronconi" }, 
+      { "nombre": "Virginia Barros" },
+      { "nombre": "Natalia Davidovich" }, 
+      { "nombre": "Juan Lagostena" }
+    ]
+  },
+  "georef": {
+    "titulo": "Solución georeferencial Web y Mobile para seguimiento en tiempo real",
+    "abstract": [
+      "Solución técnica para hacer un seguimiento personalizado en tiempo real de usuarios brindando soporte y recomendaciones durante su viaje como así también asistiéndolo ante una situación de peligro.", 
+      "El sistema consiste en 2 componentes bien diferenciadas con problemáticas dispares: por un lado la aplicación Mobile que funciona de modo online y offline; y por otro el Dashboard (Web) que funciona como panel donde se puede visualizar información en tiempo real.",
+      "Para llevar a cabo dicha solución se implementó un servidor Nodejs usando express y mongodb que sirve a las 2 aplicaciones. Se utiliza Angularjs y web socket para la conexión en tiempo real. En cuanto a la aplicación mobile se desarrolló utilizando Ionic y Apache cordova."
+    ],
+    "oradores": [
+      { "nombre": "Cristian López" }
+    ]
+  },
+  "programar": {
+    "titulo": "¿Por qué todos los chicos y chicas argentinas deben aprender a programar?",
+    "abstract": "La charla trata acerca de la importancia de incorporar las Ciencias de la Computación a los contenidos obligatorios de la escuela argentina. La exposición aborda desde las principales razones que sustentan la iniciativa hasta las dificultades que se presentan y diversas estrategias pensadas para afrontarlas. Distintos enfoques sobre la enseñanza de computación en la escuela son puestos en cuestión. A su vez, se hace un breve repaso por experiencias internacionales en la materia.", 
+    "oradores": [
+      {
+        "nombre": "María Belén Bonello",
+        "bio": "María Belén Bonello es Licenciada en Ciencia Política de la UBA, se ha desempeñado en el diseño e implementación de políticas públicas vinculadas a educación, comunicación y juventud. Actualmente coordina la Iniciativa Program.AR en la Fundación Sadosky del Ministerio de Ciencia, Tecnología e Innovación Productiva. "
+      }
+    ]
   }
 }
