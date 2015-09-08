@@ -8,8 +8,13 @@
       {
         "nombre": "Alejandro Pulver", 
         "bio": "Contribuí a proyectos de código abierto de modificaciones del motor gráfico del Quake II (QuDos, quake2xp, etc). Durante el 2008 y 2009 participé del Google Summer of Code para el proyecto FreeBSD, donde realicé mejoras para el sistema de ports (paquetes de software). También fui usuario y desarrollador de FreeBSD desde 2006 hasta 2011, más que nada manteniendo ports y haciendo mejoras al sistema. Desde el 2009 hago la carrera de Lic. en Ciencias de la Computación en la Universidad de Buenos Aires, y actualmente estoy finalizando la tesis sobre neurociencia. En el medio hice el curso de piloto privado de avión y estudié japonés durante 3 años. Actualmente trabajo en 10pines, una empresa de desarrollo de software, y junto fuerzas para terminar la tesis. Creo que las computadoras podrían hacer más cosas solas de las que las solemos usar, y deberían hacer nuestras vidas más fáciles en vez de complicadas (cosa que no me parece que se esté logrando). "
-      }
-    ]
+      },
+      { "nombre": "Alejo Salles" },
+      { "nombre": "Mariano Sigman" },
+      { "nombre": "Diego Golombek" },
+      { "nombre": "María Juliana Leone" }
+    ],
+    "oradoresForSchedule": "Ale Pulver, Alejo Salles, Mariano Sigman, Diego Golombek, Ma. Juliana Leone"
   },
   "meteor": {
     "titulo": "Introducción a Meteor.js",
@@ -24,7 +29,7 @@
     ]
   },
   "ciaa": {
-    "titulo": "Implementación de protocolo Firmata para la CIAA: Un protocolo comunicación de dispositivos físicos, con entornos de programación gráficos tales como Snap y Scratch.", 
+    "titulo": "Implementación de protocolo Firmata para la CIAA", 
     "abstract": [
       "En este Trabajo de investigación de la carrera Ingeniería en Automatización y Control Industrial se presenta la implementación del protocolo Firmata para la CIAA (Computadora Industrial Abierta Argentina). Este protocolo de comunicación permite la programación de dispositivos físicos desde la PC utilizando entornos con lenguajes gráficos de programación tales como Snap y Scratch. ", 
       "Se expondrá la arquitectura de dicho protocolo y su implementación como un programa para la CIAA escrito en lenguaje C. El programa utiliza un Sistema Operativo en Tiempo Real (RTOS) para microcontroladores, encargado de planificar las tareas de comunicación, y una HAL que comanda los periféricos de microcontrolador de la CIAA."
@@ -33,6 +38,17 @@
       {
       "nombre": "Ian Olivieri",
       "bio": "Ian Olivieri, de 22 años, es un Técnico Aviónico recibido de la Escuela de Educación Tecnica Nº7, Taller Regional Quilmes, estudiante de la carrera de Ingeniería en Automatización y Control Industrial de la Universidad Nacional de Quilmes (IACI - UNQ). Actualmente trabaja como investigador becado por el Consejo Interuniversitario Nacional (CIN) en el tema \"Desarrollo de sistemas embebidos basados en tecnología de objetos, con requerimientos de confiabilidad y respuesta en tiempo real\", en la Universidad Nacional de Quilmes."}
+    ]
+  },
+  "carpeDiem": {
+    "titulo": "Carpe Diem - No pierdas ni un segundo en operaciones",
+    "oradores": [
+      {
+        "nombre": "Matías Gorostegui"
+      },
+      {
+        "nombre": "Juan Manuel Álvarez"
+      }
     ]
   }
 }

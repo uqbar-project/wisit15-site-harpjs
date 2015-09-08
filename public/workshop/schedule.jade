@@ -7,9 +7,12 @@ mixin talk(name)
   -talk = public.workshop._data[name]
   td.talk 
     .title #{talk.titulo}
-    .speaker 
-      each orador in talk.oradores
-        .orador #{orador.nombre}
+    .speaker
+      if talk.oradoresForSchedule
+        .orador #{talk.oradoresForSchedule}
+      else 
+        each orador in talk.oradores
+          .orador #{orador.nombre}
 
 h2.subtitulo Cronograma
 table
@@ -24,9 +27,7 @@ table
     +talk('espacioTiempo')
   tr
     td.horario 10:45
-    td.talk
-      .title Carpe Diem - No pierdas ni un segundo en operaciones
-      .speaker Matías Gorostegui, Juan Manuel Álvarez
+    +talk('carpeDiem')
   tr
     td.horario 11:15
     td.special(colspan=4) Break     
