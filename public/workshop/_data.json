@@ -230,5 +230,11 @@
         "nombre": "Ernesto Mislej"
       }
     ]
+  }, 
+  "showUsYourProject": {
+    "titulo": "¡Mostrá tu proyecto!",
+    "abstract": "Charlas breves en las que los asistentes pueden mostrar sus proyectos innovadores al resto de la comunidad. Inscribite el mismo día de la conferencia para mostrar tu proyecto.",
+    "oradores": [ { "nombre": "" }],
+    "oradoresForSchedule": "Inscribite el mismo día para mostrar tu proyecto innovador."
   }
 }
