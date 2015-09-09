@@ -78,7 +78,12 @@
           { 
             "nombre" : "Ariel Álvarez",
             "bio" : "Ariel es estudiante de la Licenciatura en Desarrollo de Software en la Universidad Nacional de Quilmes y consultor externo en sistemas de la información, con 7 años de experiencia en la industria."
+          },
+          { 
+            "nombre" : "Javier Casaubon",
+            "bio" : "Javier es un estudiante de la Universidad Tecnológica Nacional en los últimos años de la carrera de Ingeniería en Sistemas de Información, y ayudante en la materia Diseño de Sistemas. Apasionado por la programación, trabaja en forma independiente como programador de aplicaciones web y móviles, y en su tiempo libre esta estudiando técnicas de desarrollo de gráficos por computadora y videojuegos."
           }
+
         ],
         "conocimientos": [
           "HTML y CSS",
