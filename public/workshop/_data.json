@@ -189,6 +189,10 @@
       {
         "nombre": "María Belén Bonello",
         "bio": "María Belén Bonello es Licenciada en Ciencia Política de la UBA, se ha desempeñado en el diseño e implementación de políticas públicas vinculadas a educación, comunicación y juventud. Actualmente coordina la Iniciativa Program.AR en la Fundación Sadosky del Ministerio de Ciencia, Tecnología e Innovación Productiva. "
+      },
+      {
+        "nombre": "Lucas Spigariol",
+        "bio": "Lucas es profesor de la UTN en las facutlades Buenos Aires y Delta, con más de 20 años de experiencia en la enseñanza de la programación orientada a objetos."
       }
     ]
   },
