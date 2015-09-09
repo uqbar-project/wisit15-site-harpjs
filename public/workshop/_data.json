@@ -47,10 +47,12 @@
     ],
     "oradores": [
       {
-        "nombre": "Matías Gorostegui"
+        "nombre": "Matías Gorostegui", 
+        "bio": "Ingeniero en Software egresado de la UBA y con un Máster en Marketing de la Universidad de San Andrés, Matías es el co-fundador de la firma FDV Solutions. Se ha desempeñado en distintos roles dentro de la organización pero todos con un único objetivo: hacer de FDV Solutions una de las mayores compañías de software en Argentina. Entre sus hobbies se encuentra la navegación a vela y por supuesto, pasar tiempo con Juanita, su hija de 2 años. "
       },
       {
-        "nombre": "Juan Manuel Álvarez"
+        "nombre": "Juan Manuel Álvarez",
+        "bio": "Ingeniero en Software egresado de la UBA, Juan Manuel o DJ como lo conocen todos, es también co-fundador de la firma FDV Solutions. Realizó un posgrado en Inteligencia del Negocio por la Universidad Austral y es creador de Dynamic Jasper, una herramienta open source para la creación de reportes que actualmente es usada en más de 160 países. Actualmente se desempeña como CTO dentro de la compañía y está a cargo  del diseño y arquitectura de gran parte de las aplicaciones y proyectos que ejecuta FDV Solutions. Como bien lo aclara su apodo, DJ además es compositor de música electrónica. Su último hit lleva el nombre de “Inminente” en honor a la llegada de su primera hija, Charo. "
       }
     ]
   }, 
@@ -111,6 +113,121 @@
       {
         "nombre": "María Belén Bonello",
         "bio": "María Belén Bonello es Licenciada en Ciencia Política de la UBA, se ha desempeñado en el diseño e implementación de políticas públicas vinculadas a educación, comunicación y juventud. Actualmente coordina la Iniciativa Program.AR en la Fundación Sadosky del Ministerio de Ciencia, Tecnología e Innovación Productiva. "
+      }
+    ]
+  }, 
+  "thin": {
+    "titulo": "Thin Languages", 
+    "abstract": "En el desarrollo de software hay grandes coincidencias en las nociones conceptuales de los lenguajes de programación y sus construcciones semánticas que los lenguajes deberían tener y que los principales puntos de discrepancia están en los detalles sintácticos y cuestiones de forma. Thin Languages es un proyecto en el cúal se mantiene un modelo semántico y en el cual se puede traducir este a cualquier sintaxis soportada por el motor del proyecto, llamado less, y que además permite además personalización de convenciones en sintaxis como tabulaciones, espacios, y otrás más. La idea de mantener el modelo semántico es para preservar la idea sin estar a atado a una sintaxis en particular y que pueda compilarse a multiples plataformas.",
+    "oradores": [
+      {
+        "nombre" : "Nicolás Scarcella",
+        "bio": "Ingeniero de la UTN. Docente en UTN, UNSAM y UNQ. 12 años trabajando en la industria. Pelado."
+      },
+      {
+        "nombre": "Ernesto Bossi",
+        "bio": "Ayudante de Técnicas Avanzadas de Programación, Arquitecturas Concurrentes y Sistemas Mainframes en UTN-FRBA. Programador trabajando en Deviget LLC y otros proyectos locos."
+      }
+    ]
+  },   
+  "wollok": {
+    "titulo": "Repensando la enseñanza de POO: Wollok en el aula y más allá",
+    "abstract": [
+      "A pesar de que hoy en día la programación orientada a objetos es el paradigma más utilizado en los desarrollos industriales, todavía es frecuente encontrar deficiencias en su comprensión en muchos estudiantes y profesionales. Desde nuestra perspectiva, este problema se puede encarar mejorando las prácticas de la enseñanza inicial del paradigma. Es habitual ver que un estudiante inicial se ve obligado a comprender una gran cantidad de conceptos complejos y abstractos antes de producir su primer programa, ni hablar de aprovechar el polimorfismo.",
+      "Nuestro trabajo consiste en la definición de un camino incremental para la enseñanza, que permite construir programas polimórficos desde el primer día, e incorpora otros conceptos paulatinamente, favoreciendo la maduración de los conceptos de los estudiantes. En esa línea hemos desarrollado varias herramientas para dar sustento a la metodología, la más reciente de ellas es Wollok: un lenguaje de programación educativo + un entorno de desarrollo pensado específicamente para estudiantes que dan sus primeros pasos en la programación.",
+      "En esta charla mostraremos los avances de Wollok en el último año: la experiencia en el aula, la incorporación de una interfaz muy simple para que los estudiantes puedan crear juegos sencillos utilizando sólo los conceptos del paradigma y varias herramientas que se incorporan al IDE para tener una experiencia más 'profesional', tales como un debugger, un test runner y herramientas interactivas para solucionar problemas comunes."
+    ],
+    "oradores": [
+      {
+        "nombre": "Nicolás Passerini",
+        "bio": "Ingeniero en sistemas, docente e investigador, con 18 años de experiencia industrial y 16 de experiencia docente en universidades nacionales como UTN, UNQ, UNSAM y UNO. Desde 2004 trabajo enseñando a programar con objetos, siempre buscando la mejor forma de garantizar que la mayor cantidad de estudiantes lleguen a aprovechar al máximo las características del paradigma. Esta investigación se refleja tanto en trabajos teóricos sobre la metodología que utilizamos, como en las herramientas que fuimos construyendo para dar soporte a esas metodologías. Actualmente integro el staff de SCVSoft, soy asesor en temas de arquitectura en Pami y presidente de la Fundación Uqbar para el Desarrollo de la Ciencia Informática."
+      }, 
+      { 
+        "nombre": "Javier Fernandes", 
+        "bio": "Ingeniero en Sistemas de la UTN FRBA. Lleva 12 años en la industria del software, trabajando en soluciones de diversos tipos como: web, de integración, y backends.  También en gran parte enfocado al desarrollo de herramientas, frameworks e IDE's y temas relacionados a SCM. Además es profesor de materias de desarrollo de software en UNQ y UNSAM. Previamente también en la UNO. Co-fundador de la fundación Uqbar Project y autor del lenguaje de programación Wollok."
+      },
+      { "nombre": "Juan Contardo" },
+      { "nombre": "Nahuel Palumbo" },
+      { "nombre": "Carlos Raffelini" } 
+    ]
+  },
+  "panelAgil": {
+    "titulo": "Presente y futuro de las metodologías agiles",
+    "oradores": [
+      {
+        "nombre": "Nicolás Scarcella",
+        "bio": "Ingeniero de la UTN. Docente en UTN, UNSAM y UNQ. 12 años trabajando en la industria. Pelado."
+      },
+      {
+        "nombre": "Nico Páez",
+        "bio": "Ingeniero en Informática egresado de la UBA. Docente de Ingeniería de Software en UNQ y UNTREF. Cuenta con 15 años de experiencia trabajando en la industria en tareas de desarrollo de software y consultoría. Autor de diversas publicaciones en el área de métodologías ágiles."
+      },
+      {
+        "nombre": "Pablo Francavilla",
+        "bio": "Pablo Daniel Francavilla es Ingeniero en Sistemas de la UTN, fue docente en la misma Universidad. Trabaja en la industria desde hace mas de 18 años, su primer software a medida fue hecho en Clipper!. En 2008 co-fundó su propia Software Factory. Miembro de la comunidad Agile en Bs. As.desde 2013 se desempeña como Director de Desarollo en Avantrip.com"
+      },
+      {
+        "nombre": "Gisela Decuzzi"
+      }
+    ]
+  },
+  "panelEdu": {
+    "titulo": "Enseñar y aprender a programar: varias experiencias",
+    "oradores": [
+      {
+        "nombre": "Tomás Perasso",
+        "bio": "Tomás Agustín Perasso es profesor de Filosofía y de Ciencias de la Educación, licenciando en Filosofía por la UNSAM. Es Vicedirector de la escuela secundaria del Sagrado Corazón Al.Cal en Lanús Oeste.. Es profesor de Ética y Deontología profesional docente en el Profesorado del Sagrado Corazón en C.A.B.A. Tiene experiencia en coordinación de grupos intra e interinstitucionales en diferentes comunidades populares."
+      }, 
+      {
+        "nombre": "Denise Pari",
+        "bio": "Mi trayectoria docente y mi objetivo actual es la enseñanza y aprendizaje de la programación. Haciendo está tarea cumplí el rol de formador en los diferentes niveles del sistema educativo, así como también de docente con alumnos de diferentes edades. Actualmente estoy haciendo mi doctorado que se basa en el análisis del impacto pedagógico de las metodologías de enseñanza de la programación."
+      },
+      {
+        "nombre": "Diego Vera",
+        "bio": "Diego Vera Aranda: Profesor en Informática, Tecnico Universitario en Informática Educativa y Especialista en TIC en la Educación. Actualmente soy Jefe de Área y Profesor de Laboratorios en Informática de la Escuela Técnica N°4 de Berazategui. Desde hace 20 años, trabajo en la docencia y 13 años que soy Activista del Software y Hardware Libre en la escuela. Capacitador de distintos programas para docentes. Participante de congresos educativos nacionales e internacionales concernientes a las TICS en las escuelas."
+      },
+      {
+        "nombre": "María Belén Bonello",
+        "bio": "María Belén Bonello es Licenciada en Ciencia Política de la UBA, se ha desempeñado en el diseño e implementación de políticas públicas vinculadas a educación, comunicación y juventud. Actualmente coordina la Iniciativa Program.AR en la Fundación Sadosky del Ministerio de Ciencia, Tecnología e Innovación Productiva. "
+      }
+    ]
+  },
+  "mumuki": {
+    "titulo": "Mumuki, enseñanza libre de la programación",
+    "abstract": [
+      "Mumuki es una plataforma on-line para aprender a programar, que surge de años de experiencias docentes enseñando en las aulas de diversas facultades.Tiene como objetivo complementar las clases presenciales y convertirse en una alternativa superadora a las decenas de plataformas comerciales que existen hoy en día y que postulan enseñar a programar.",
+      "Así, mientras éstas presentan contenido pago y/o privativo, orientado a presentar tecnologías en lugar de transmitir conceptos, y siendo rara vez concebidas por y para el público local, Mumuki rompe este esquema: tanto su software como su contenido es libre y gratuito, recupera el valor de la teoría integrándola con la práctica y está orientado específicamente al público local, entre otras diferencias fundamentales."
+    ],
+    "oradores": [
+      {
+        "nombre": "Franco Bulgarelli",
+        "bio": "Docente, ingeniero, programador, músico aficionado."
+      },
+      {
+        "nombre": "Federico Aloi",
+        "bio": "Federico es colaborador activo de Mumuki, proyecto que busca brindar educación de calidad, libre y gratuita sobre programación. Estudia Licenciatura en Desarollo de Software en UNQ y dicta dos cursos de programación en la escuela técnica Sagrado Corazón Al.Cal."
+      }
+    ]
+  },
+  "redux": {
+    "titulo": "Functional Reactive Programming en Javascript",
+    "abstract": "En esta charla vamos a ver como desarrollar una aplicación web simple en Javascript aprovechando algunas librerías modernas que surgieron recientemente como React, para conseguir un flujo de datos unidireccional. Vamos a ver como esto nos beneficia como desarrolladores haciendo nuestro código más predecible, conciso y testeable.",
+    "oradores": [
+      {
+        "nombre": "Juan Pablo Saraceno",
+        "bio": "JP lleva unos 15 años involucrado en la industria del software, enfocado mayormente en web, mobile e IoT. Desarolló soluciones de software para distintos rubros incluyendo motores de búsqueda, redes sociales, domótica, CMS, CRM, machine learning, entre otras. Actualmente es Gerente de Desarrollo de SCVSoft y Avi-on Labs. Es además Co-Fundador de los Meetups locales SUGAR (Scala User Group Argentina) y Meetup-JS Argentina."
+      }
+    ]
+  },
+  "bigData": {
+    "titulo": "Big Data 101",
+    "abstract": [
+      "A esta altura parece una verdad de perogrullo: \"Las compañías que mejor utilicen la información, serán las más preparadas para afrontar los desafíos de la competitividad en el futuro\". Hemos escuchado frases como estas muchas veces. Tenemos plena convicción de que existe valor en los datos que genera nuestra compañía, sentimos que tenemos que hacer algo pronto o pereceremos. Datos emergen a borbotones, la pregunta es: ¿dónde empezamos a buscar el tan prometido valor? Daremos una introducción a la temática Big Data, las motivaciones, fuentes de datos y casos de uso sobre los distintos sectores e industrias.",
+      "Luego discutiremos los modelos de procesamiento distribuido para grandes volúmenes de información, haciendo énfasis en las herramientas open source y en particular en el ecosistema Hadoop (Map/Reduce, Pig, Spark, entre otros). Se describirán los modelos de procesamiento y los problemas que surgen al intentar aplicar las herramientas tradicionales sobre grandes volúmenes de datos. Se mostrarán las herramientas más utilizadas, las ventajas y desventajas de cada una y el mejor contexto de uso para cada una de ellas."
+    ],
+    "oradores": [
+      {
+        "nombre": "Ernesto Mislej"
       }
     ]
   }
