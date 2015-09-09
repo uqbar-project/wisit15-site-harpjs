@@ -17,9 +17,12 @@ mixin special(time, title)
 mixin talk(name)
   -talk = public.workshop._data[name]
   td.talk 
-    a(href='workshop/\##{name}')
-      .title #{talk.titulo}
-      .speaker: +oradores(talk)
+    if (talk)
+      a(href='workshop/\##{name}')
+        .title #{talk.titulo}
+        .speaker: +oradores(talk)
+    else
+      .title FALTA DATA: #{name}
 
 mixin talks(time, ...names)
   tr
@@ -40,5 +43,14 @@ table
   +special('11:15', 'Break')
   +talks('11:30', 'softwareLibre', 'docker')
   +talks('12:00', 'nahual', 'georef')
-  +talks('12:30', 'programar')
+  +talks('12:30', 'programar', 'thin')
   +special('13:00', 'Almuerzo')
+  +talks('14:00', 'wollok', 'ciaa')
+  +talks('14:30', 'mumuki', 'bigData')
+  +talks('15:00', 'panelEdu', 'showUsYourProject')
+  +special('16:00', 'Break')
+  +talks('16:15', 'redux')
+  +talks('16:45', 'meteor')
+  +talks('17:15', 'panelAgil')
+  +special('18:00', 'Cierre')
+
