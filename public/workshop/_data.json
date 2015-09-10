@@ -1,0 +1,252 @@
+{
+  "espacioTiempo" : {
+    "titulo": "La representación espacial del tiempo en un cuerpo de datos masivos",
+    "abstract": [
+      "Es usual representar conceptos temporales con metáforas basadas en el espacio, lo que se refleja incluso en nuestra forma de hablar (por ejemplo, cuando decimos 'se acerca la Navidad'). En este trabajo estudiamos la representación espacial del tiempo utilizando un experimento masivo en la web en el que participaron más de 1000 sujetos. El experimento está compuesto por cinco tareas, en las cuales los sujetos debían elegir ubicación, tamaño y color de distinto tipo de eventos temporales. Observamos varios efectos comunes en la representación.  En primer lugar, y en concordancia con la dirección de escritura en nuestra cultura, la dirección del tiempo es de izquierda a derecha, con una leve pero significativa inclinación hacia arriba. Luego, el tamaño de las figuras aumenta a medida que avanza el tiempo, así como en fines de semana y en primavera y verano, los días y estaciones por lo general preferidas. En cuanto al color, los hombres y las mujeres difieren para representar el tiempo, pero el color verde se asocia al futuro más allá de esas diferencias. Por último, la representación de eventos en una línea temporal revela dos hechos interesantes: primero, hacemos un zoom en el hoy, y segundo,  cuanto mayor es nuestra edad, más lejos ubicamos nuestra vejez. Estos resultados extienden evidencias previas y demuestran que utilizamos distintas propiedades espaciales para definir características particulares del tiempo."
+    ],
+    "oradores": [
+      {
+        "nombre": "Alejandro Pulver", 
+        "bio": "Contribuí a proyectos de código abierto de modificaciones del motor gráfico del Quake II (QuDos, quake2xp, etc). Durante el 2008 y 2009 participé del Google Summer of Code para el proyecto FreeBSD, donde realicé mejoras para el sistema de ports (paquetes de software). También fui usuario y desarrollador de FreeBSD desde 2006 hasta 2011, más que nada manteniendo ports y haciendo mejoras al sistema. Desde el 2009 hago la carrera de Lic. en Ciencias de la Computación en la Universidad de Buenos Aires, y actualmente estoy finalizando la tesis sobre neurociencia. En el medio hice el curso de piloto privado de avión y estudié japonés durante 3 años. Actualmente trabajo en 10pines, una empresa de desarrollo de software, y junto fuerzas para terminar la tesis. Creo que las computadoras podrían hacer más cosas solas de las que las solemos usar, y deberían hacer nuestras vidas más fáciles en vez de complicadas (cosa que no me parece que se esté logrando). "
+      },
+      { "nombre": "Alejo Salles" },
+      { "nombre": "Mariano Sigman" },
+      { "nombre": "Diego Golombek" },
+      { "nombre": "María Juliana Leone" }
+    ],
+    "oradoresForSchedule": "Ale Pulver, Alejo Salles, Mariano Sigman, Diego Golombek y Ma. Juliana Leone"
+  },
+  "meteor": {
+    "titulo": "Introducción a Meteor.js",
+    "abstract": [
+      "Meteor se define como una plataforma de código abierto para construir aplicaciones móviles y webs puramente en Javascript. En esta charla voy a contarles de qué se trata esta nueva tecnología que nos permite desarrollar productos a la altura de las grandes aplicaciones del mercado, pero en una fracción del tiempo."
+    ],
+    "oradores": [
+      {
+      "nombre": "Pablo Chiappetti",
+      "bio": "Desarrollador de 26 años, pasó los últimos ocho programando en diferentes tecnologías relacionadas con la web. Trabaja en Bikestorming como desarrollador web, backend y mobile. Organizador del meetup de Meteor en Buenos Aires."
+      }
+    ]
+  },
+  "ciaa": {
+    "titulo": "Implementación de protocolo Firmata para la CIAA", 
+    "abstract": [
+      "En este Trabajo de investigación de la carrera Ingeniería en Automatización y Control Industrial se presenta la implementación del protocolo Firmata para la CIAA (Computadora Industrial Abierta Argentina). Este protocolo de comunicación permite la programación de dispositivos físicos desde la PC utilizando entornos con lenguajes gráficos de programación tales como Snap y Scratch. ", 
+      "Se expondrá la arquitectura de dicho protocolo y su implementación como un programa para la CIAA escrito en lenguaje C. El programa utiliza un Sistema Operativo en Tiempo Real (RTOS) para microcontroladores, encargado de planificar las tareas de comunicación, y una HAL que comanda los periféricos de microcontrolador de la CIAA."
+    ],
+    "oradores": [
+      {
+      "nombre": "Ian Olivieri",
+      "bio": "Ian Olivieri, de 22 años, es un Técnico Aviónico recibido de la Escuela de Educación Tecnica Nº7, Taller Regional Quilmes, estudiante de la carrera de Ingeniería en Automatización y Control Industrial de la Universidad Nacional de Quilmes (IACI - UNQ). Actualmente trabaja como investigador becado por el Consejo Interuniversitario Nacional (CIN) en el tema \"Desarrollo de sistemas embebidos basados en tecnología de objetos, con requerimientos de confiabilidad y respuesta en tiempo real\", en la Universidad Nacional de Quilmes."}
+    ]
+  },
+  "carpeDiem": {
+    "titulo": "Carpe Diem - No pierdas ni un segundo en operaciones",
+    "abstract": [
+      "Carpe Society es un caso de desarrollo de una aplicación móvil iOS. Su backend ha sido montado integramente sobre Heroku (y sus Add-Ons) usando NodeJS, Express, MongoDB, Redis y Elastic entre otras tecnologías. Es un claro ejemplo del escaso tiempo dedicado a la infraestructura, integración de servicios o algún otro aspecto relativo a operaciones."
+    ],
+    "oradores": [
+      {
+        "nombre": "Matías Gorostegui", 
+        "bio": "Ingeniero en Software egresado de la UBA y con un Máster en Marketing de la Universidad de San Andrés, Matías es el co-fundador de la firma FDV Solutions. Se ha desempeñado en distintos roles dentro de la organización pero todos con un único objetivo: hacer de FDV Solutions una de las mayores compañías de software en Argentina. Entre sus hobbies se encuentra la navegación a vela y por supuesto, pasar tiempo con Juanita, su hija de 2 años. "
+      },
+      {
+        "nombre": "Juan Manuel Álvarez",
+        "bio": "Ingeniero en Software egresado de la UBA, Juan Manuel o DJ como lo conocen todos, es también co-fundador de la firma FDV Solutions. Realizó un posgrado en Inteligencia del Negocio por la Universidad Austral y es creador de Dynamic Jasper, una herramienta open source para la creación de reportes que actualmente es usada en más de 160 países. Actualmente se desempeña como CTO dentro de la compañía y está a cargo  del diseño y arquitectura de gran parte de las aplicaciones y proyectos que ejecuta FDV Solutions. Como bien lo aclara su apodo, DJ además es compositor de música electrónica. Su último hit lleva el nombre de “Inminente” en honor a la llegada de su primera hija, Charo. "
+      }
+    ]
+  }, 
+  "softwareLibre": {
+    "titulo": "Software Libre en la UNQ", 
+    "abstract": [
+      "De una dos redes internas de 15 máquinas cada una, a la situación actual. Usamos SL desde 1995 aunque usted no lo crea, en nuestro primer servidor de correo y nuestro primer servidor web, operativos desde 1996. Retrocesos, retrasos, errores hasta que (casi) toda la infraestructura de la UNQ es SL. La aventura de los escritorios con SL. Varios aprendizajes, desafíos por venir para el software libre y las tecnologías abiertas."
+    ],
+    "oradores" : [
+      { 
+        "nombre": "Leo Marina",
+        "bio": "Desde 1995 trabajo en la UNQ en soporte técnico, administración de servidores y adminstración de redes. Aprendí con cada nueva implementación de tecnología que fuimos haciendo. Actualmente estoy a cargo de la Dirección de Asistencia Técnica a Carreras en Tecnologías Abiertas de la UNQ. Desde el año pasado formo parte del Consejo Asesor de Conectar Igualdad." 
+      }
+    ]
+  },
+  "docker": {
+    "titulo": "Docker como la máxima expresión de Devops",
+    "abstract": [
+      "Docker es una de las tecnologías que más revolucionó el manejo de ambientes y despliegue de aplicaciones a gran escala. Veremos por qué es tan importante conocer esta tecnología para desarrolladores y administradores de infraestructura y cómo facilita aplicar prácticas de devops.",
+      "Durante la charla introduciremos la tecnología, como así tambien los casos prácticos sobre clustering, repositorios privados de imágenes y arquitectura productivas."
+    ],
+    "oradores": [
+      { 
+        "nombre" : "Gustavo Brey",
+        "bio": "Gustavo Andres Brey es Ingeniero en Sistemas de la Información con más de 15 años de experiencia en la Industria IT. Actualmente es el CIO del Instituto Nacional de Servicios Sociales para Jubilados y Pensionados (INSSJP/PAMI), donde está impulsando un cambio de paradigma innovador en IT para la gestión de la salud pública Argentina. Desde 2004 es fundador y profesor de la materia Arquitectura de Proyectos de IT en la UTN- FRBA. A su vez es Co-Fundador de CONF4IT, una organización sin fines de lucro, que desarrolla conferencias agnósticas para distintas comunidades IT como ARQCONF y KIDSCONF. Participó en importantes conferencias de Tecnologías de la Información, Salud , Innovación, Open Source, Big Data, Arquitectura de Software, Gobierno y Datos Abiertos, así como de Hackathones."
+     }, 
+      { 
+        "nombre" : "Andrés Calabrese",
+        "bio": "Ingeniero en Sistema de Información con más de 11 años de experiencia tanto en puestos de liderazgo técnico en grandes empresas, como así también como CTO en varios emprendiendo tecnologicos como socio. Andrés comenzó su carrera en IBM, liderando proyectos complejos en diferentes tecnologías, a su vez promovió encuentros de colaboración técnica. Como CTO definió, planificó e implementó prácticas de Devops que permitieron guiar tecnologicamente a la compañía en términos metodológicos, de desarrollo e infraestructura." 
+      }
+    ]
+  },
+  "nahual": {
+    "titulo": "Nahual: la experiencia tecnológico-solidaria más caótica",
+    "abstract": [
+      "Nahual es un proyecto sencillo y poco pretencioso, quizás de ahí su replicabilidad. Su documentación puede resultar escasa pero eso se complementa con comunicación muy fluida.",
+      "Está formado por personas “amigas” de la tecnología, de energía efervescente y mucha disposición, pero no depende de esas personas, porque lo más interesante es la idea: llevar las computadoras a lugares desfavorecidos u olvidados por el progreso, para que esas personas tengan una oportunidad laboral inmediata. Y eso, descubrimos con los años, puede hacerse de muchas formas: enseñando a usar las computadoras, a repararlas, a programarlas, o mismo, a controlar la calidad de los programas. Las ideas pueden adaptarse a cada comunidad, y cada comunidad las adopta, las cambia, las renueva y de un modo extraño, vuelve a retroalimentar al Proyecto.", 
+      "Nahual tiene éxito porque no hacemos fuerza para que se multiplique, sino que eso ocurre solo, de manera descontrolada y descontracturada. Y ver esa magia es contagioso, como el huevo y la gallina (cuak)."
+    ],
+    "oradores": [
+      { "nombre": "Mara Dalponte" },
+      { "nombre": "Francisco Ronconi" }, 
+      { "nombre": "Virginia Barros" },
+      { "nombre": "Juan Lagostena" }
+    ],
+    "extra": {
+      "nombre": "El proyecto Nahual",
+      "bio": "Nahual es un proyecto que busca la inclusión por medio de las tecnología. Ya cuenta con 8 años recorridos, muchas anécdotas, unos cuantos errores, aciertos valiosos y las ganas intactas. Contamos con varios nodos en Argentina y un par de nodos en otras partes de Latinoamérica. Somos nerds, nos encantan las compus y damos cursos de testing en los barrios, talleres de Pilas Engine o alguna otra nueva idea que aporten los nahualeros. Nos cabe compartir y abrir el contenido que producimos, y sobre todo, tratamos de usar la tecnología como puente, como descubridor e igualador de oportunidades."
+    }
+  },
+  "georef": {
+    "titulo": "Solución georeferencial Web y Mobile para seguimiento en tiempo real",
+    "abstract": [
+      "Solución técnica para hacer un seguimiento personalizado en tiempo real de usuarios brindando soporte y recomendaciones durante su viaje como así también asistiéndolo ante una situación de peligro.", 
+      "El sistema consiste en 2 componentes bien diferenciadas con problemáticas dispares: por un lado la aplicación Mobile que funciona de modo online y offline; y por otro el Dashboard (Web) que funciona como panel donde se puede visualizar información en tiempo real.",
+      "Para llevar a cabo dicha solución se implementó un servidor Nodejs usando express y mongodb que sirve a las 2 aplicaciones. Se utiliza Angularjs y web socket para la conexión en tiempo real. En cuanto a la aplicación mobile se desarrolló utilizando Ionic y Apache cordova."
+    ],
+    "oradores": [
+      { "nombre": "Cristian López" }
+    ]
+  },
+  "programar": {
+    "titulo": "¿Por qué todos los chicos y chicas argentinas deben aprender a programar?",
+    "abstract": "La charla trata acerca de la importancia de incorporar las Ciencias de la Computación a los contenidos obligatorios de la escuela argentina. La exposición aborda desde las principales razones que sustentan la iniciativa hasta las dificultades que se presentan y diversas estrategias pensadas para afrontarlas. Distintos enfoques sobre la enseñanza de computación en la escuela son puestos en cuestión. A su vez, se hace un breve repaso por experiencias internacionales en la materia.", 
+    "oradores": [
+      {
+        "nombre": "María Belén Bonello",
+        "bio": "María Belén Bonello es Licenciada en Ciencia Política de la UBA, se ha desempeñado en el diseño e implementación de políticas públicas vinculadas a educación, comunicación y juventud. Actualmente coordina la Iniciativa Program.AR en la Fundación Sadosky del Ministerio de Ciencia, Tecnología e Innovación Productiva. "
+      }
+    ]
+  }, 
+  "thin": {
+    "titulo": "Thin Languages", 
+    "abstract": "En el desarrollo de software hay grandes coincidencias en las nociones conceptuales de los lenguajes de programación y sus construcciones semánticas que los lenguajes deberían tener y que los principales puntos de discrepancia están en los detalles sintácticos y cuestiones de forma. Thin Languages es un proyecto en el cúal se mantiene un modelo semántico y en el cual se puede traducir este a cualquier sintaxis soportada por el motor del proyecto, llamado less, y que además permite además personalización de convenciones en sintaxis como tabulaciones, espacios, y otrás más. La idea de mantener el modelo semántico es para preservar la idea sin estar a atado a una sintaxis en particular y que pueda compilarse a multiples plataformas.",
+    "oradores": [
+      {
+        "nombre" : "Nicolás Scarcella",
+        "bio": "Ingeniero de la UTN. Docente en UTN, UNSAM y UNQ. 12 años trabajando en la industria. Pelado."
+      },
+      {
+        "nombre": "Ernesto Bossi",
+        "bio": "Ayudante de Técnicas Avanzadas de Programación, Arquitecturas Concurrentes y Sistemas Mainframes en UTN-FRBA. Programador trabajando en Deviget LLC y otros proyectos locos."
+      }
+    ]
+  },   
+  "wollok": {
+    "titulo": "Repensando la enseñanza de POO: Wollok en el aula y más allá",
+    "abstract": [
+      "A pesar de que hoy en día la programación orientada a objetos es el paradigma más utilizado en los desarrollos industriales, todavía es frecuente encontrar deficiencias en su comprensión en muchos estudiantes y profesionales. Desde nuestra perspectiva, este problema se puede encarar mejorando las prácticas de la enseñanza inicial del paradigma. Es habitual ver que un estudiante inicial se ve obligado a comprender una gran cantidad de conceptos complejos y abstractos antes de producir su primer programa, ni hablar de aprovechar el polimorfismo.",
+      "Nuestro trabajo consiste en la definición de un camino incremental para la enseñanza, que permite construir programas polimórficos desde el primer día, e incorpora otros conceptos paulatinamente, favoreciendo la maduración de los conceptos de los estudiantes. En esa línea hemos desarrollado varias herramientas para dar sustento a la metodología, la más reciente de ellas es Wollok: un lenguaje de programación educativo + un entorno de desarrollo pensado específicamente para estudiantes que dan sus primeros pasos en la programación.",
+      "En esta charla mostraremos los avances de Wollok en el último año: la experiencia en el aula, la incorporación de una interfaz muy simple para que los estudiantes puedan crear juegos sencillos utilizando sólo los conceptos del paradigma y varias herramientas que se incorporan al IDE para tener una experiencia más 'profesional', tales como un debugger, un test runner y herramientas interactivas para solucionar problemas comunes."
+    ],
+    "oradores": [
+      {
+        "nombre": "Nicolás Passerini",
+        "bio": "Ingeniero en sistemas, docente e investigador, con 18 años de experiencia industrial y 16 de experiencia docente en universidades nacionales como UTN, UNQ, UNSAM y UNO. Desde 2004 trabajo enseñando a programar con objetos, siempre buscando la mejor forma de garantizar que la mayor cantidad de estudiantes lleguen a aprovechar al máximo las características del paradigma. Esta investigación se refleja tanto en trabajos teóricos sobre la metodología que utilizamos, como en las herramientas que fuimos construyendo para dar soporte a esas metodologías. Actualmente integro el staff de SCVSoft, soy asesor en temas de arquitectura en Pami y presidente de la Fundación Uqbar para el Desarrollo de la Ciencia Informática."
+      }, 
+      { 
+        "nombre": "Javier Fernandes", 
+        "bio": "Ingeniero en Sistemas de la UTN FRBA. Lleva 12 años en la industria del software, trabajando en soluciones de diversos tipos como: web, de integración, y backends.  También en gran parte enfocado al desarrollo de herramientas, frameworks e IDE's y temas relacionados a SCM. Además es profesor de materias de desarrollo de software en UNQ y UNSAM. Previamente también en la UNO. Co-fundador de la fundación Uqbar Project y autor del lenguaje de programación Wollok."
+      },
+      { "nombre": "Juan Contardo" },
+      { "nombre": "Nahuel Palumbo" },
+      { "nombre": "Carlos Raffelini" } 
+    ]
+  },
+  "panelAgil": {
+    "titulo": "Presente y futuro de las metodologías agiles",
+    "oradores": [
+      {
+        "nombre": "Nicolás Scarcella",
+        "bio": "Ingeniero de la UTN. Docente en UTN, UNSAM y UNQ. 12 años trabajando en la industria. Pelado."
+      },
+      {
+        "nombre": "Nico Páez",
+        "bio": "Ingeniero en Informática egresado de la UBA. Docente de Ingeniería de Software en UNQ y UNTREF. Cuenta con 15 años de experiencia trabajando en la industria en tareas de desarrollo de software y consultoría. Autor de diversas publicaciones en el área de métodologías ágiles."
+      },
+      {
+        "nombre": "Pablo Francavilla",
+        "bio": "Pablo Daniel Francavilla es Ingeniero en Sistemas de la UTN, fue docente en la misma Universidad. Trabaja en la industria desde hace mas de 18 años, su primer software a medida fue hecho en Clipper!. En 2008 co-fundó su propia Software Factory. Miembro de la comunidad Agile en Bs. As.desde 2013 se desempeña como Director de Desarollo en Avantrip.com"
+      },
+      {
+        "nombre": "Gisela Decuzzi"
+      }
+    ]
+  },
+  "panelEdu": {
+    "titulo": "Enseñar y aprender a programar: varias experiencias",
+    "oradores": [
+      {
+        "nombre": "Tomás Perasso",
+        "bio": "Tomás Agustín Perasso es profesor de Filosofía y de Ciencias de la Educación, licenciando en Filosofía por la UNSAM. Es Vicedirector de la escuela secundaria del Sagrado Corazón Al.Cal en Lanús Oeste.. Es profesor de Ética y Deontología profesional docente en el Profesorado del Sagrado Corazón en C.A.B.A. Tiene experiencia en coordinación de grupos intra e interinstitucionales en diferentes comunidades populares."
+      }, 
+      {
+        "nombre": "Denise Pari",
+        "bio": "Mi trayectoria docente y mi objetivo actual es la enseñanza y aprendizaje de la programación. Haciendo está tarea cumplí el rol de formador en los diferentes niveles del sistema educativo, así como también de docente con alumnos de diferentes edades. Actualmente estoy haciendo mi doctorado que se basa en el análisis del impacto pedagógico de las metodologías de enseñanza de la programación."
+      },
+      {
+        "nombre": "Diego Vera",
+        "bio": "Diego Vera Aranda: Profesor en Informática, Tecnico Universitario en Informática Educativa y Especialista en TIC en la Educación. Actualmente soy Jefe de Área y Profesor de Laboratorios en Informática de la Escuela Técnica N°4 de Berazategui. Desde hace 20 años, trabajo en la docencia y 13 años que soy Activista del Software y Hardware Libre en la escuela. Capacitador de distintos programas para docentes. Participante de congresos educativos nacionales e internacionales concernientes a las TICS en las escuelas."
+      },
+      {
+        "nombre": "María Belén Bonello",
+        "bio": "María Belén Bonello es Licenciada en Ciencia Política de la UBA, se ha desempeñado en el diseño e implementación de políticas públicas vinculadas a educación, comunicación y juventud. Actualmente coordina la Iniciativa Program.AR en la Fundación Sadosky del Ministerio de Ciencia, Tecnología e Innovación Productiva. "
+      },
+      {
+        "nombre": "Lucas Spigariol",
+        "bio": "Lucas es profesor de la UTN en las facutlades Buenos Aires y Delta, con más de 20 años de experiencia en la enseñanza de la programación orientada a objetos."
+      }
+    ]
+  },
+  "mumuki": {
+    "titulo": "Mumuki, enseñanza libre de la programación",
+    "abstract": [
+      "Mumuki es una plataforma on-line para aprender a programar, que surge de años de experiencias docentes enseñando en las aulas de diversas facultades.Tiene como objetivo complementar las clases presenciales y convertirse en una alternativa superadora a las decenas de plataformas comerciales que existen hoy en día y que postulan enseñar a programar.",
+      "Así, mientras éstas presentan contenido pago y/o privativo, orientado a presentar tecnologías en lugar de transmitir conceptos, y siendo rara vez concebidas por y para el público local, Mumuki rompe este esquema: tanto su software como su contenido es libre y gratuito, recupera el valor de la teoría integrándola con la práctica y está orientado específicamente al público local, entre otras diferencias fundamentales."
+    ],
+    "oradores": [
+      {
+        "nombre": "Franco Bulgarelli",
+        "bio": "Docente, ingeniero, programador, músico aficionado."
+      },
+      {
+        "nombre": "Federico Aloi",
+        "bio": "Federico es colaborador activo de Mumuki, proyecto que busca brindar educación de calidad, libre y gratuita sobre programación. Estudia Licenciatura en Desarollo de Software en UNQ y dicta dos cursos de programación en la escuela técnica Sagrado Corazón Al.Cal."
+      }
+    ]
+  },
+  "redux": {
+    "titulo": "Functional Reactive Programming en Javascript",
+    "abstract": "En esta charla vamos a ver como desarrollar una aplicación web simple en Javascript aprovechando algunas librerías modernas que surgieron recientemente como React, para conseguir un flujo de datos unidireccional. Vamos a ver como esto nos beneficia como desarrolladores haciendo nuestro código más predecible, conciso y testeable.",
+    "oradores": [
+      {
+        "nombre": "Juan Pablo Saraceno",
+        "bio": "JP lleva unos 15 años involucrado en la industria del software, enfocado mayormente en web, mobile e IoT. Desarolló soluciones de software para distintos rubros incluyendo motores de búsqueda, redes sociales, domótica, CMS, CRM, machine learning, entre otras. Actualmente es Gerente de Desarrollo de SCVSoft y Avi-on Labs. Es además Co-Fundador de los Meetups locales SUGAR (Scala User Group Argentina) y Meetup-JS Argentina."
+      }
+    ]
+  },
+  "bigData": {
+    "titulo": "Big Data 101",
+    "abstract": [
+      "A esta altura parece una verdad de perogrullo: \"Las compañías que mejor utilicen la información, serán las más preparadas para afrontar los desafíos de la competitividad en el futuro\". Hemos escuchado frases como estas muchas veces. Tenemos plena convicción de que existe valor en los datos que genera nuestra compañía, sentimos que tenemos que hacer algo pronto o pereceremos. Datos emergen a borbotones, la pregunta es: ¿dónde empezamos a buscar el tan prometido valor? Daremos una introducción a la temática Big Data, las motivaciones, fuentes de datos y casos de uso sobre los distintos sectores e industrias.",
+      "Luego discutiremos los modelos de procesamiento distribuido para grandes volúmenes de información, haciendo énfasis en las herramientas open source y en particular en el ecosistema Hadoop (Map/Reduce, Pig, Spark, entre otros). Se describirán los modelos de procesamiento y los problemas que surgen al intentar aplicar las herramientas tradicionales sobre grandes volúmenes de datos. Se mostrarán las herramientas más utilizadas, las ventajas y desventajas de cada una y el mejor contexto de uso para cada una de ellas."
+    ],
+    "oradores": [
+      {
+        "nombre": "Ernesto Mislej"
+      }
+    ]
+  }, 
+  "showUsYourProject": {
+    "titulo": "¡Mostrá tu proyecto!",
+    "abstract": "Charlas breves en las que los asistentes pueden mostrar sus proyectos innovadores al resto de la comunidad. Inscribite el mismo día de la conferencia para mostrar tu proyecto.",
+    "oradores": [ { "nombre": "" }],
+    "oradoresForSchedule": "Inscribite el mismo día para mostrar tu proyecto innovador."
+  }
+}

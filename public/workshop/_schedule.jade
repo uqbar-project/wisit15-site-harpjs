@@ -1,0 +1,56 @@
+mixin oradores(taller)
+  if talk.oradoresForSchedule
+    .orador #{talk.oradoresForSchedule}
+  else 
+    each orador, index in taller.oradores
+      span #{orador.nombre}
+      if index == taller.oradores.length - 2
+        span= ' y '
+      else if index < taller.oradores.length - 1
+        span= ', '  
+
+mixin special(time, title)
+  tr
+    td.horario #{time}
+    td.special(colspan=4) #{title}
+
+mixin talk(name)
+  -talk = public.workshop._data[name]
+  td.talk 
+    if (talk)
+      a(href='workshop/\##{name}')
+        .title #{talk.titulo}
+        .speaker: +oradores(talk)
+    else
+      .title FALTA DATA: #{name}
+
+mixin talks(time, ...names)
+  tr
+    td.horario #{time}
+    each name in names
+      +talk(name)
+
+h2.subtitulo Cronograma
+table
+  tr
+    th.ubicacion
+    th.ubicacion Sala 1 - Auditorio
+    th.ubicacion Sala 2 - Aula 22
+  +special('9:00', 'Recepción')
+  +special('9:30', 'Inauguración')
+  +talks('10:00', 'espacioTiempo')
+  +talks('10:45', 'carpeDiem')
+  +special('11:15', 'Break')
+  +talks('11:30', 'softwareLibre', 'docker')
+  +talks('12:00', 'nahual', 'georef')
+  +talks('12:30', 'programar', 'thin')
+  +special('13:00', 'Almuerzo')
+  +talks('14:00', 'wollok', 'ciaa')
+  +talks('14:30', 'mumuki', 'bigData')
+  +talks('15:00', 'panelEdu', 'showUsYourProject')
+  +special('16:00', 'Break')
+  +talks('16:15', 'redux')
+  +talks('16:45', 'meteor')
+  +talks('17:15', 'panelAgil')
+  +special('18:00', 'Cierre')
+

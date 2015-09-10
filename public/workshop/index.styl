@@ -35,35 +35,67 @@ img#foto
   p.direccion
     font-size 1.4em
 
+.cronograma 
+  margin-vertical 1em
+  
+  th, td
+    padding: 4px 8px
+    border 3px solid white
+
+  td
+    font 1.2em condensed
+    background-color #e0e0e0
+    border 3px solid white
+    color grisOscuro
+    
+  td.horario
+    width 6%
+    text-align center
+    
+  td.talk
+    width 47%
+    
+  .speaker
+    font-size .8em
+    margin-top .5em
+    
+  th.ubicacion
+    font-size: 1.4em;
+    font-family: 'Open Sans Condensed',sans-serif;
+    background-color: #808080;
+    color: #fff;
+
+  
+.row.detalle-talleres
+  font-size 1.3em
+  color grisMedio
+  .col-xs-12
+    @media (max-width: 992px)
+      margin-vertical 1em
+
+    .title-bullet
+      font-size 1.5em
+      margin-vertical 1em .5em
+
+    h2 
+      margin-vertical .5em 
+    
+    .detalle
+      .destacadito, .orador .nombre
+        font-size 1.2em
+        margin-vertical .75em 0.25em
+
+      .abstract, .orador .bio
+        padding-left 0em
+
+  a.anchor
+    display block;
+    visibility hidden
+    position relative
+    top -30px
+   
 #map-canvas
   margin-vertical 2em
   // margin-left 3em
   height 20em
 
-.row.detalle-talleres
-  .col-xs-12
-    @media (max-width: 992px)
-      margin-vertical 1em
-
-    h2 
-      margin-vertical .5em
-    
-    .detalle
-      p, li 
-        font-size 1.3em
-        
-      .destacadito
-        margin-vertical .7em .1em
-        color celeste
-        font-size 1.8em
-
-      .center
-        margin-vertical 1em
-
-      .orador 
-        .nombre
-          font-size 1.4em
-          margin-vertical 0em 0.25em
-          
-        .bio
-          padding-left 2em

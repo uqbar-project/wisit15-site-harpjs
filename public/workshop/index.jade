@@ -1,5 +1,13 @@
 extends ../_shared/_base_layout
 
+mixin oradores(taller)
+  each orador, index in taller.oradores
+    span #{orador.nombre}
+    if index == taller.oradores.length - 2
+      span= ' y '
+    else if index < taller.oradores.length - 1
+      span= ', '  
+
 append styles
   link(rel="stylesheet" href="workshop/index.css")
 
@@ -32,19 +40,8 @@ block content
       p Vení el 19 de septiembre a enterarte de las novedades en desarrollo de software en la tercera edición del Workshop. Si querés saber de qué se trata, podés mirar las charlas de las ediciones pasadas en nuestro canal de 
         a(href='https://www.youtube.com/channel/UCcj9rZ9TeeJDnvcVA9cmYMw') YouTube
 
-  .row
-    .col-md-6
-      ul.tracks
-        h3.title-bullet.text-uppercase: li Track Investigación
-        p Trabajos científicos que tengan como objetivo mejorar la forma en que desarrollamos software o formamos nuevos profesionales, favoreciendo la interacción entre el ámbito académico y el industrial.
-
-        h3.title-bullet.text-uppercase: li Track Experiencias
-        p Exposiciones sobre experiencias concretas en la aplicación de tecnologías y metodologías innovadoras en el ámbito industrial y docente.
-
-        h3.title-bullet.text-uppercase: li Mostrá tu proyecto
-        p Charlas breves en las que los asistentes pueden mostrar sus proyectos innovadores al resto de la comunidad.
-
-    .col-md-6: img#foto(src='assets/img/foto-frba-aula-magna.png')
+  .row.cronograma: .col-xs-12
+    != partial('./_schedule.jade')
 
   .row 
     .col-md-4.datos
@@ -55,22 +52,33 @@ block content
 
     .col-md-8: #map-canvas.center
 
-  .row: .col-xs-12: h2.subtitulo Charlas confirmadas
+  .row: .col-xs-12: h2.subtitulo Detalle de charlas
   .row.detalle-talleres
-    each taller, id in public._data.charlas
-      a(name='#{id}')
-      .col-xs-12: ul.detalle
-        h3.title-bullet: li= taller.titulo
+    each taller, id in public.workshop._data
+      .col-xs-12
+        a.anchor(name='#{id}')
+        ul.detalle
+          h3.title-bullet: li= taller.titulo
+          p: +oradores(taller)
 
-        p.destacadito Resumen:
-        each line in taller.abstract
-          p= line
-        
-        p.destacadito Oradores:
-        each orador, index in taller.oradores
-          .orador
-            p.nombre #{orador.nombre}
-            p.bio #{orador.bio}
+          if taller.abstract
+            p.destacadito Resumen
+              .abstract
+                if Array.isArray(taller.abstract)
+                  each line in taller.abstract
+                    p= line
+                else
+                  p= taller.abstract
+          
+          each orador in taller.oradores
+            if orador.bio
+              .orador
+                p.nombre #{orador.nombre}
+                p.bio #{orador.bio}
 
 
-
+          if taller.extra 
+            .orador
+              p.nombre #{taller.extra.nombre}
+              p.bio #{taller.extra.bio}
+  
