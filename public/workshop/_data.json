@@ -87,13 +87,21 @@
   },
   "nahual": {
     "titulo": "Nahual: la experiencia tecnológico-solidaria más caótica",
+    "abstract": [
+      "Nahual es un proyecto sencillo y poco pretencioso, quizás de ahí su replicabilidad. Su documentación puede resultar escasa pero eso se complementa con comunicación muy fluida.",
+      "Está formado por personas “amigas” de la tecnología, de energía efervescente y mucha disposición, pero no depende de esas personas, porque lo más interesante es la idea: llevar las computadoras a lugares desfavorecidos u olvidados por el progreso, para que esas personas tengan una oportunidad laboral inmediata. Y eso, descubrimos con los años, puede hacerse de muchas formas: enseñando a usar las computadoras, a repararlas, a programarlas, o mismo, a controlar la calidad de los programas. Las ideas pueden adaptarse a cada comunidad, y cada comunidad las adopta, las cambia, las renueva y de un modo extraño, vuelve a retroalimentar al Proyecto.", 
+      "Nahual tiene éxito porque no hacemos fuerza para que se multiplique, sino que eso ocurre solo, de manera descontrolada y descontracturada. Y ver esa magia es contagioso, como el huevo y la gallina (cuak)."
+    ],
     "oradores": [
       { "nombre": "Mara Dalponte" },
       { "nombre": "Francisco Ronconi" }, 
       { "nombre": "Virginia Barros" },
-      { "nombre": "Natalia Davidovich" }, 
       { "nombre": "Juan Lagostena" }
-    ]
+    ],
+    "extra": {
+      "nombre": "El proyecto Nahual",
+      "bio": "Nahual es un proyecto que busca la inclusión por medio de las tecnología. Ya cuenta con 8 años recorridos, muchas anécdotas, unos cuantos errores, aciertos valiosos y las ganas intactas. Contamos con varios nodos en Argentina y un par de nodos en otras partes de Latinoamérica. Somos nerds, nos encantan las compus y damos cursos de testing en los barrios, talleres de Pilas Engine o alguna otra nueva idea que aporten los nahualeros. Nos cabe compartir y abrir el contenido que producimos, y sobre todo, tratamos de usar la tecnología como puente, como descubridor e igualador de oportunidades."
+    }
   },
   "georef": {
     "titulo": "Solución georeferencial Web y Mobile para seguimiento en tiempo real",

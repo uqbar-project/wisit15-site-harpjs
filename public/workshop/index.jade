@@ -70,9 +70,15 @@ block content
                 else
                   p= taller.abstract
           
-          each orador, index in taller.oradores
+          each orador in taller.oradores
             if orador.bio
               .orador
                 p.nombre #{orador.nombre}
                 p.bio #{orador.bio}
 
+
+          if taller.extra 
+            .orador
+              p.nombre #{taller.extra.nombre}
+              p.bio #{taller.extra.bio}
+  
