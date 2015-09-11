@@ -59,7 +59,7 @@
   "softwareLibre": {
     "titulo": "Software Libre en la UNQ", 
     "abstract": [
-      "De una dos redes internas de 15 máquinas cada una, a la situación actual. Usamos SL desde 1995 aunque usted no lo crea, en nuestro primer servidor de correo y nuestro primer servidor web, operativos desde 1996. Retrocesos, retrasos, errores hasta que (casi) toda la infraestructura de la UNQ es SL. La aventura de los escritorios con SL. Varios aprendizajes, desafíos por venir para el software libre y las tecnologías abiertas."
+      "De una dos redes internas de 15 máquinas cada una, a la situación actual. Usamos software libre desde 1995 aunque usted no lo crea, en nuestro primer servidor de correo y nuestro primer servidor web, operativos desde 1996. Retrocesos, retrasos, errores hasta que (casi) toda la infraestructura de la UNQ es software libre. La aventura de los escritorios con software libre. Varios aprendizajes, desafíos por venir para el software libre y las tecnologías abiertas."
     ],
     "oradores" : [
       { 
@@ -77,7 +77,7 @@
     "oradores": [
       { 
         "nombre" : "Gustavo Brey",
-        "bio": "Gustavo Andres Brey es Ingeniero en Sistemas de la Información con más de 15 años de experiencia en la Industria IT. Actualmente es el CIO del Instituto Nacional de Servicios Sociales para Jubilados y Pensionados (INSSJP/PAMI), donde está impulsando un cambio de paradigma innovador en IT para la gestión de la salud pública Argentina. Desde 2004 es fundador y profesor de la materia Arquitectura de Proyectos de IT en la UTN- FRBA. A su vez es Co-Fundador de CONF4IT, una organización sin fines de lucro, que desarrolla conferencias agnósticas para distintas comunidades IT como ARQCONF y KIDSCONF. Participó en importantes conferencias de Tecnologías de la Información, Salud , Innovación, Open Source, Big Data, Arquitectura de Software, Gobierno y Datos Abiertos, así como de Hackathones."
+        "bio": "Gustavo Andres Brey es Ingeniero en Sistemas de Información con más de 15 años de experiencia en la Industria IT. Actualmente es el CIO del Instituto Nacional de Servicios Sociales para Jubilados y Pensionados (INSSJP/PAMI), donde está impulsando un cambio de paradigma innovador en IT para la gestión de la salud pública Argentina. Desde 2004 es fundador y profesor de la materia Arquitectura de Proyectos de IT en la UTN- FRBA. A su vez es Co-Fundador de CONF4IT, una organización sin fines de lucro, que desarrolla conferencias agnósticas para distintas comunidades IT como ARQCONF y KIDSCONF. Participó en importantes conferencias de Tecnologías de la Información, Salud , Innovación, Open Source, Big Data, Arquitectura de Software, Gobierno y Datos Abiertos, así como de Hackathones."
      }, 
       { 
         "nombre" : "Andrés Calabrese",
@@ -126,7 +126,7 @@
   }, 
   "thin": {
     "titulo": "Thin Languages", 
-    "abstract": "En el desarrollo de software hay grandes coincidencias en las nociones conceptuales de los lenguajes de programación y sus construcciones semánticas que los lenguajes deberían tener y que los principales puntos de discrepancia están en los detalles sintácticos y cuestiones de forma. Thin Languages es un proyecto en el cúal se mantiene un modelo semántico y en el cual se puede traducir este a cualquier sintaxis soportada por el motor del proyecto, llamado less, y que además permite además personalización de convenciones en sintaxis como tabulaciones, espacios, y otrás más. La idea de mantener el modelo semántico es para preservar la idea sin estar a atado a una sintaxis en particular y que pueda compilarse a multiples plataformas.",
+    "abstract": "En el desarrollo de software hay grandes coincidencias en las nociones conceptuales de los lenguajes de programación y sus construcciones semánticas que los lenguajes deberían tener mientras que los principales puntos de discrepancia están en los detalles sintácticos y cuestiones de forma. Thin Languages es un proyecto en el que se mantiene un modelo semántico y se lo puede traducir a cualquier sintaxis soportada por el motor del proyecto, llamado less. El hecho de mantener el modelo semántico apunta a preservar la idea sin estar atado a una sintaxis en particular y hace que pueda compilarse a múltiples plataformas. Además permite personalizar convenciones en sintaxis como tabulaciones, espacios y otras más.",
     "oradores": [
       {
         "nombre" : "Nicolás Scarcella",
@@ -134,7 +134,7 @@
       },
       {
         "nombre": "Ernesto Bossi",
-        "bio": "Ayudante de Técnicas Avanzadas de Programación, Arquitecturas Concurrentes y Sistemas Mainframes en UTN-FRBA. Programador trabajando en Deviget LLC y otros proyectos locos."
+        "bio": "Docente de Técnicas Avanzadas de Programación, Arquitecturas Concurrentes y Sistemas Mainframes en UTN-FRBA. Programador trabajando en Deviget LLC y otros proyectos locos."
       }
     ]
   },   
@@ -148,11 +148,11 @@
     "oradores": [
       {
         "nombre": "Nicolás Passerini",
-        "bio": "Ingeniero en sistemas, docente e investigador, con 18 años de experiencia industrial y 16 de experiencia docente en universidades nacionales como UTN, UNQ, UNSAM y UNO. Desde 2004 trabajo enseñando a programar con objetos, siempre buscando la mejor forma de garantizar que la mayor cantidad de estudiantes lleguen a aprovechar al máximo las características del paradigma. Esta investigación se refleja tanto en trabajos teóricos sobre la metodología que utilizamos, como en las herramientas que fuimos construyendo para dar soporte a esas metodologías. Actualmente integro el staff de SCVSoft, soy asesor en temas de arquitectura en Pami y presidente de la Fundación Uqbar para el Desarrollo de la Ciencia Informática."
+        "bio": "Ingeniero en sistemas, docente e investigador, con 18 años de experiencia industrial y 16 de experiencia docente en universidades nacionales como UTN, UNQ, UNSAM y UNO. Desde 2004 trabajo enseñando a programar con objetos, siempre buscando la mejor forma de garantizar que la mayor cantidad de estudiantes lleguen a aprovechar al máximo las características del paradigma. Esta búsqueda se refleja tanto en trabajos teóricos sobre la metodología que utilizamos, como en las herramientas que fuimos construyendo para dar soporte a esas metodologías. Actualmente integro el staff de SCVSoft, soy asesor en temas de arquitectura en Pami y presidente de la Fundación Uqbar para el Desarrollo de la Ciencia Informática."
       }, 
       { 
         "nombre": "Javier Fernandes", 
-        "bio": "Ingeniero en Sistemas de la UTN FRBA. Lleva 12 años en la industria del software, trabajando en soluciones de diversos tipos como: web, de integración, y backends.  También en gran parte enfocado al desarrollo de herramientas, frameworks e IDE's y temas relacionados a SCM. Además es profesor de materias de desarrollo de software en UNQ y UNSAM. Previamente también en la UNO. Co-fundador de la fundación Uqbar Project y autor del lenguaje de programación Wollok."
+        "bio": "Ingeniero en Sistemas de la UTN FRBA. Lleva 12 años en la industria del software, trabajando en soluciones de diversos tipos como: web, de integración, y backends.  También en gran parte enfocado al desarrollo de herramientas, frameworks e IDE's y temas relacionados a SCM. Además es profesor de materias de desarrollo de software en UNQ y UNSAM. Previamente también en la UNO. Co-fundador de la fundación Uqbar y autor del lenguaje de programación Wollok."
       },
       { "nombre": "Juan Contardo" },
       { "nombre": "Nahuel Palumbo" },
@@ -168,14 +168,15 @@
       },
       {
         "nombre": "Nico Páez",
-        "bio": "Ingeniero en Informática egresado de la UBA. Docente de Ingeniería de Software en UNQ y UNTREF. Cuenta con 15 años de experiencia trabajando en la industria en tareas de desarrollo de software y consultoría. Autor de diversas publicaciones en el área de métodologías ágiles."
+        "bio": "Ingeniero en Informática egresado de la UBA. Docente de Ingeniería de Software en UNQ y UNTREF. Cuenta con 15 años de experiencia trabajando en la industria en tareas de desarrollo de software y consultoría. Autor de diversas publicaciones en el área de metodologías ágiles."
       },
       {
         "nombre": "Pablo Francavilla",
-        "bio": "Pablo Daniel Francavilla es Ingeniero en Sistemas de la UTN, fue docente en la misma Universidad. Trabaja en la industria desde hace mas de 18 años, su primer software a medida fue hecho en Clipper!. En 2008 co-fundó su propia Software Factory. Miembro de la comunidad Agile en Bs. As.desde 2013 se desempeña como Director de Desarollo en Avantrip.com"
+        "bio": "Pablo Daniel Francavilla es Ingeniero en Sistemas de la UTN, y fue docente en la misma Universidad. Trabaja en la industria desde hace mas de 18 años, su primer software a medida fue hecho en Clipper!. En 2008 co-fundó su propia Software Factory. Miembro de la comunidad Agile en Bs. As. desde 2013 se desempeña como Director de Desarollo en Avantrip.com"
       },
       {
-        "nombre": "Gisela Decuzzi"
+        "nombre": "Gisela Decuzzi",
+        "bio": "Gise es Ingeniera en Sistemas de la UTN, y docente desde hace 7 años en UTN y UNQ, pasando por varias materias: Paradigmas de Programación, Diseño de Sistemas y Construcción de Interfaces de Usuario. Desde 2012 trabaja en 10Pines."
       }
     ]
   },
@@ -188,7 +189,7 @@
       }, 
       {
         "nombre": "Denise Pari",
-        "bio": "Mi trayectoria docente y mi objetivo actual es la enseñanza y aprendizaje de la programación. Haciendo está tarea cumplí el rol de formador en los diferentes niveles del sistema educativo, así como también de docente con alumnos de diferentes edades. Actualmente estoy haciendo mi doctorado que se basa en el análisis del impacto pedagógico de las metodologías de enseñanza de la programación."
+        "bio": "Mi trayectoria docente y mi objetivo actual es la enseñanza y aprendizaje de la programación. Haciendo esta tarea cumplí el rol de formador en los diferentes niveles del sistema educativo, así como también de docente con alumnos de diferentes edades. Actualmente estoy haciendo mi doctorado que se basa en el análisis del impacto pedagógico de las metodologías de enseñanza de la programación."
       },
       {
         "nombre": "Diego Vera",
@@ -200,7 +201,7 @@
       },
       {
         "nombre": "Lucas Spigariol",
-        "bio": "Lucas es profesor de la UTN en las facutlades Buenos Aires y Delta, con más de 20 años de experiencia en la enseñanza de la programación orientada a objetos."
+        "bio": "Soy ingeniero en sistemas, investigador y docente en las facultades Buenos Aires y Delta de la UTN. Hace más de 20 años que me dedico a enseñar a programar en el ambiente universitario, con incursiones en el nivel terciario, secundario y espacios educativos informales. Tesista en maestría en Docencia Universitaria. Integrante de la fundación Uqbar."
       }
     ]
   },
@@ -223,7 +224,7 @@
   },
   "redux": {
     "titulo": "Functional Reactive Programming en Javascript",
-    "abstract": "En esta charla vamos a ver como desarrollar una aplicación web simple en Javascript aprovechando algunas librerías modernas que surgieron recientemente como React, para conseguir un flujo de datos unidireccional. Vamos a ver como esto nos beneficia como desarrolladores haciendo nuestro código más predecible, conciso y testeable.",
+    "abstract": "En esta charla vamos a ver cómo desarrollar una aplicación web simple en Javascript aprovechando algunas librerías modernas que surgieron recientemente como React, para conseguir un flujo de datos unidireccional. Vamos a ver cómo esto nos beneficia como desarrolladores haciendo nuestro código más predecible, conciso y testeable.",
     "oradores": [
       {
         "nombre": "Juan Pablo Saraceno",
