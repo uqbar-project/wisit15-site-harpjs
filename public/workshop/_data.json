@@ -182,6 +182,10 @@
   },
   "panelEdu": {
     "titulo": "Enseñar y aprender a programar: varias experiencias",
+    "abstract": [
+      "La madurez que va adquiriendo la programación informática como disciplina, la masividad de las iniciativas actuales para difundirla, y la dinámica de los lenguajes y herramientas usados en la industria; todo confluye en que \"aprender a programar\" es algo sustancialmente distinto de \"aprender un lenguaje\". Pero entonces, ¿qué es \"enseñar a programar\", cuáles son los conceptos e ideas a transmitir? ",
+      "A partir de esta primer pregunta aparecen otras, ¿cómo hacer para fomentar la pasión que tenemos los programadores por lo que hacemos?, ¿cuáles son las herramientas adecuadas para distintos públicos?, ¿qué paradigma de programación es el mejor para quien no conoce ninguno? Este panel es una charla sobre estos temas, donde participan varios docentes de programación de niveles secundario y universitario ... y vos, claro."
+    ],
     "oradores": [
       {
         "nombre": "Tomás Perasso",
