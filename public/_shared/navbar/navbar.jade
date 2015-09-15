@@ -12,4 +12,6 @@ nav.navbar.navbar-inverse.navbar-fixed-top
     #fixed-navbar-uqbar.navbar-collapse.collapse
       ul.nav.navbar-nav.navbar-right
         each section in public._data.sections
-          li: a(href="#{ section.path }") #{section.label}
+          li(class="#{ current.path[0] == section.path ? 'active' : '' }")
+            a(href="#{ section.path }") #{section.label}
+
