@@ -154,9 +154,18 @@
         "nombre": "Javier Fernandes", 
         "bio": "Ingeniero en Sistemas de la UTN FRBA. Lleva 12 años en la industria del software, trabajando en soluciones de diversos tipos como: web, de integración, y backends.  También en gran parte enfocado al desarrollo de herramientas, frameworks e IDE's y temas relacionados a SCM. Además es profesor de materias de desarrollo de software en UNQ y UNSAM. Previamente también en la UNO. Co-fundador de la fundación Uqbar y autor del lenguaje de programación Wollok."
       },
-      { "nombre": "Juan Contardo" },
-      { "nombre": "Nahuel Palumbo" },
-      { "nombre": "Carlos Raffelini" } 
+      { 
+        "nombre": "Juan Contardo",
+        "bio": "Es estudiante de la Universidad Tecnológica Nacional que se encuentra cursando las últimas materias de la carrera de Ingeniería en Sistemas de Información. Su vocación por el desarrollo de software lo llevó a formar parte de la cátedra de Diseño de Sistemas como ayudante. Fué co-fundador de Liquid Solutions, un emprendimiento orientado al desarrollo de software y automatizaciones para la industria nacional."
+      },
+      { 
+        "nombre": "Nahuel Palumbo",
+        "bio": "Estudiante de Ing. en Sistemas en la UTN y ayudante de materias de programación. Trabaja como desarrollador en una start-up. Amante de la física, matemáticas y salir con amigos. Pudo juntar su pasión por la docencia y los videojuegos en el desarrollo de Wollok-Game, una herramienta que facilita el aprendendizaje de las bases de la programación OO creando juegos." 
+      },
+      { 
+        "nombre": "Carlos Raffelini",
+        "bio": "Se considera desarrollador full stack más por su interes en todas las áreas del desarrollo de aplicaciones que por ser experto. Le interesa el Diseño y la Arquitectura de Sofware. También le gustan los lenguajes desde el momento en que leyó la gramática de C por primera vez. Trabaja en una startup. Está cursando sus últimas dos materias en Ingeniería en Sistemas de Información en la UTN."
+      } 
     ]
   },
   "panelAgil": {
@@ -193,7 +202,7 @@
       }, 
       {
         "nombre": "Denise Pari",
-        "bio": "Mi trayectoria docente y mi objetivo actual es la enseñanza y aprendizaje de la programación. Haciendo esta tarea cumplí el rol de formador en los diferentes niveles del sistema educativo, así como también de docente con alumnos de diferentes edades. Actualmente estoy haciendo mi doctorado que se basa en el análisis del impacto pedagógico de las metodologías de enseñanza de la programación."
+        "bio": "Lic. en Informática Educativa, profesora en Disciplinas industriales, especializada en gestión de instituciones educativas y desarrollo de proyectos de educación, actualmente desarrollando el Doctorado en Ciencia y Tecnología la UNQ. Mi trayectoria profesional actual abarca principalmente áreas de enseñanza y aprendizaje de las ciencias informáticas  en el nivel Universitario, habiendo desarrollado tareas de Dirección y Coordinación en el nivel Superior y Secundario. A su vez me  desempeño  como formadora de docentes en los diferentes niveles del Sistema Educativo, participando de iniciativas de capacitación tanto en el ámbito público como privado."
       },
       {
         "nombre": "Diego Vera",
@@ -244,9 +253,14 @@
     ],
     "oradores": [
       {
-        "nombre": "Ernesto Mislej"
+        "nombre": "Ernesto Mislej",
+        "bio": "Socio fundador de 7Puentes y profesor de la Maestría en Data Mining de la Universidad de Buenos Aires."
       }
-    ]
+    ],
+    "extra": { 
+      "nombre": "Sobre 7P",
+      "bio": "7Puentes es una compañía de investigación y desarrollo de soluciones de Data Science y Big Data para satisfacer las necesidades de información y lidiar con la complejidad de datos de las organizaciones actuales. Nuestro equipo cuenta con un sólido conocimiento en Inteligencia Artificial y un compromiso constante con las últimas tendencias en la academia y en la industria. Hemos ayudado a organizaciones de todo el mundo a diseñar e implementar data products, transformando los datos en nuevas oportunidades de negocio."
+    }
   }, 
   "showUsYourProject": {
     "titulo": "¡Mostrá tu proyecto!",
