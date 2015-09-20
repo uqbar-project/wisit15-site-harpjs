@@ -76,9 +76,13 @@ block content
                 p.nombre #{orador.nombre}
                 p.bio #{orador.bio}
 
-
           if taller.extra 
             .orador
               p.nombre #{taller.extra.nombre}
               p.bio #{taller.extra.bio}
+
+          if taller.page
+            p.destacadito Página Web
+            a
+              p.page #{taller.page}
   
