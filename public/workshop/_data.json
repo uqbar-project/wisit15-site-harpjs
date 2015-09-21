@@ -126,7 +126,7 @@
   }, 
   "thin": {
     "titulo": "Thin Languages", 
-    "abstract": "En el desarrollo de software hay grandes coincidencias en las nociones conceptuales de los lenguajes de programación y sus construcciones semánticas que los lenguajes deberían tener mientras que los principales puntos de discrepancia están en los detalles sintácticos y cuestiones de forma. Thin Languages es un proyecto en el que se mantiene un modelo semántico y se lo puede traducir a cualquier sintaxis soportada por el motor del proyecto, llamado less. El hecho de mantener el modelo semántico apunta a preservar la idea sin estar atado a una sintaxis en particular y hace que pueda compilarse a múltiples plataformas. Además permite personalizar convenciones en sintaxis como tabulaciones, espacios y otras más.",
+    "abstract": "En el desarrollo de software hay grandes coincidencias en las nociones conceptuales de los lenguajes de programación y sus construcciones semánticas que los lenguajes deberían tener mientras que los principales puntos de discrepancia están en los detalles sintácticos y cuestiones de forma. Thin Languages es un proyecto en el que se mantiene un modelo semántico y se lo puede traducir a cualquier sintaxis soportada por el motor del proyecto, llamado less. El hecho de mantener el modelo semántico apunta a preservar la idea sin estar atado a una sintaxis en particular y hace que pueda compilarse a múltiples plataformas. Además permite personalizar convenciones en sintaxis como tabulaciones, espacios y otras más",
     "oradores": [
       {
         "nombre" : "Nicolás Scarcella",
@@ -136,7 +136,8 @@
         "nombre": "Ernesto Bossi",
         "bio": "Docente de Técnicas Avanzadas de Programación, Arquitecturas Concurrentes y Sistemas Mainframes en UTN-FRBA. Programador trabajando en Deviget LLC y otros proyectos locos."
       }
-    ]
+    ],
+    "page" : "http://uqbar-project.github.io/java-less/"
   },   
   "wollok": {
     "titulo": "Repensando la enseñanza de POO: Wollok en el aula y más allá",
