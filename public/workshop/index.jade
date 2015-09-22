@@ -85,4 +85,12 @@ block content
             p.destacadito Página Web
             a
               p.page #{taller.page}
+
+          if taller.additionalInfo
+            p.destacadito Material Adicional
+            each additionalItem in taller.additionalInfo
+              p.additionalInfoText #{additionalItem.text}
+              each linkAdi in additionalItem.links
+                a
+                  p.AdditionalLinl #{linkAdi}
   
