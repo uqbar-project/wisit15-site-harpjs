@@ -14,7 +14,15 @@
       { "nombre": "Diego Golombek" },
       { "nombre": "María Juliana Leone" }
     ],
-    "oradoresForSchedule": "Ale Pulver, Alejo Salles, Mariano Sigman, Diego Golombek y Ma. Juliana Leone"
+    "oradoresForSchedule": "Ale Pulver, Alejo Salles, Mariano Sigman, Diego Golombek y Ma. Juliana Leone",
+    "page": "",
+    "additionalInfo" : [
+      {"text": "Sobre números grandes, ciencia y computabilidad", "links":["http://www.scottaaronson.com/writings/bignumbers.html"]},
+      {"text": "Sobre cómo el lenguaje afecta nuestra manera de pensar:", "links": ["https://edge.org/conversation/how-does-our-language-shape-the-way-we-think", "http://www-psych.stanford.edu/~lera/papers/language-time.pdf"]},
+      {"text": "Experimento online del tiempo", "links": ["http://circles-experiment-test.meteor.com/"]},
+      {"text": "Conclusiones preliminares del mismo (el video no corresponde)", "links": ["http://www.tedxriodelaplata.org/tedxperiments/tiempoyespacio"]},
+      {"text": "Unos cursos buenos en Coursera", "links": ["https://www.coursera.org/course/brainspace", "https://www.coursera.org/course/visualpercepbrain"]}
+    ]
   },
   "meteor": {
     "titulo": "Introducción a Meteor.js",
@@ -137,7 +145,8 @@
         "bio": "Docente de Técnicas Avanzadas de Programación, Arquitecturas Concurrentes y Sistemas Mainframes en UTN-FRBA. Programador trabajando en Deviget LLC y otros proyectos locos."
       }
     ],
-    "page" : "http://uqbar-project.github.io/java-less/"
+    "page" : "http://uqbar-project.github.io/java-less/",
+    "additionalInfo" : []
   },   
   "wollok": {
     "titulo": "Repensando la enseñanza de POO: Wollok en el aula y más allá",
